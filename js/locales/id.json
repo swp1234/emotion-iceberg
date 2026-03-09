@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Tes Gunung Es Emosi - DopaBrain",
+    "description": "Temukan emosi apa yang kamu tunjukkan ke dunia vs. apa yang sebenarnya kamu rasakan. Ikuti Tes Gunung Es Emosi!"
+  },
+  "a11y": { "skipToContent": "Lewati ke konten" },
+  "loader": { "loading": "Memuat..." },
+  "app": {
+    "title": "Tes Gunung Es Emosi",
+    "subtitle": "Temukan apa yang kamu tunjukkan ke dunia vs. apa yang sebenarnya kamu rasakan",
+    "startDesc": "10 skenario akan mengungkap kesenjangan antara emosi permukaan dan kedalaman tersembunyimu.",
+    "startBtn": "Mulai"
+  },
+  "question": {
+    "scenario": "Skenario",
+    "surfaceStep": "Reaksi Permukaan",
+    "deepStep": "Perasaan Tersembunyi",
+    "surfaceQ": "Bagaimana reaksimu di luar?",
+    "deepQ": "Apa yang sebenarnya kamu rasakan di dalam?"
+  },
+  "questions": {
+    "q0": {
+      "scenario": "Teman dekatmu pergi liburan dengan teman lain tanpa mengajakmu.",
+      "surface0": { "text": "\"Have fun!\" — santai saja", "emoji": "😊", "emotion": "calm" },
+      "surface1": { "text": "\"Enak banget! Kirim foto ya\" — ceria", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Pura-pura tidak peduli", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"Aku juga mau liburan segera\" — percaya diri", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Sakit hati tidak diajak", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Merasa kesepian ditinggalkan", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Sebenarnya agak kesal", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Benar-benar tidak masalah", "emoji": "😌", "emotion": "calm" }
+    },
+    "q1": {
+      "scenario": "Idemu diabaikan di tempat kerja atau sekolah.",
+      "surface0": { "text": "\"Biasa aja\" — cuek", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Tersenyum dan usulkan ide lain", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Diam tanpa ekspresi", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "\"Dengarkan lagi\" — tetap pada pendirianmu", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Cemas nilaimu tidak diakui", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Marah membara di dalam", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Sedih dan kehilangan kepercayaan diri", "emoji": "😞", "emotion": "sad" },
+      "deep3": { "text": "Semangat membara untuk membuktikan diri", "emoji": "⚡", "emotion": "passionate" }
+    },
+    "q2": {
+      "scenario": "Pasangan atau orang dekatmu akhir-akhir ini jarang menghubungi.",
+      "surface0": { "text": "Mungkin sibuk, sabar menunggu", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Kirim pesan ringan", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Berhenti menghubungi juga", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Ambil inisiatif dan buat rencana", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Cemas jangan-jangan sudah tidak suka", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Merasa sendirian dan ditinggalkan", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Kesal diperlakukan begini", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Khawatir dan sangat kangen", "emoji": "💗", "emotion": "tender" }
+    },
+    "q3": {
+      "scenario": "Di media sosial semua orang memposting momen bahagia.",
+      "surface0": { "text": "Like dan scroll terus", "emoji": "👍", "emotion": "calm" },
+      "surface1": { "text": "Tinggalkan komentar ucapan selamat", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Scroll lewat begitu saja", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Posting juga momenmu sendiri", "emoji": "📸", "emotion": "confident" },
+      "deep0": { "text": "Cemas merasa tertinggal", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Sedih kenapa aku tidak bisa seperti itu", "emoji": "😢", "emotion": "sad" },
+      "deep2": { "text": "Sinis: pasti semuanya palsu", "emoji": "😒", "emotion": "angry" },
+      "deep3": { "text": "Tidak berpikir apa-apa", "emoji": "😌", "emotion": "calm" }
+    },
+    "q4": {
+      "scenario": "Ada presentasi atau wawancara penting yang akan datang.",
+      "surface0": { "text": "Bersiap dengan tenang", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"Pasti bisa!\" — tetap semangat", "emoji": "✨", "emotion": "cheerful" },
+      "surface2": { "text": "Bersikap seolah bukan hal besar", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Tunjukkan tekad untuk berhasil", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Takut gagal", "emoji": "😨", "emotion": "fearful" },
+      "deep1": { "text": "Sangat gugup sampai perut mual", "emoji": "😰", "emotion": "anxious" },
+      "deep2": { "text": "Penuh antusiasme dan semangat", "emoji": "🔥", "emotion": "passionate" },
+      "deep3": { "text": "Bingung tidak tahu apa yang diharapkan", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q5": {
+      "scenario": "Seseorang membuat komentar sarkastis tentang penampilanmu atau kepribadianmu.",
+      "surface0": { "text": "Tertawa dan lupakan", "emoji": "😅", "emotion": "cheerful" },
+      "surface1": { "text": "Balas dengan balasan cerdas", "emoji": "😎", "emotion": "confident" },
+      "surface2": { "text": "Pura-pura tidak dengar", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "Abaikan saja", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "Sakit hati, mungkin menangis nanti", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Marah besar di dalam", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Cemas: jangan-jangan itu benar?", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Benar-benar tidak terpengaruh", "emoji": "😌", "emotion": "calm" }
+    },
+    "q6": {
+      "scenario": "Seseorang yang penting bagimu sedang mengalami masa sulit.",
+      "surface0": { "text": "\"Semua akan baik-baik saja\" — menyemangati", "emoji": "🙂", "emotion": "cheerful" },
+      "surface1": { "text": "Tawarkan bantuan nyata", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Diam-diam ada di sampingnya", "emoji": "😐", "emotion": "calm" },
+      "surface3": { "text": "\"Waktu akan menyembuhkan\" — tenang", "emoji": "😶", "emotion": "indifferent" },
+      "deep0": { "text": "Hati ikut sakit sampai menangis", "emoji": "💗", "emotion": "tender" },
+      "deep1": { "text": "Merasa tidak berdaya", "emoji": "😞", "emotion": "sad" },
+      "deep2": { "text": "Marah pada penyebab rasa sakitnya", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Bingung harus berbuat apa", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q7": {
+      "scenario": "Kamu punya akhir pekan penuh untuk dirimu sendiri.",
+      "surface0": { "text": "\"Akhirnya libur!\" — senang", "emoji": "😄", "emotion": "cheerful" },
+      "surface1": { "text": "Merencanakan kegiatan", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Tidak melakukan sesuatu yang spesial", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Bilang sedang istirahat saja", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "Kesepian karena tidak ada yang mengajak", "emoji": "🥺", "emotion": "lonely" },
+      "deep1": { "text": "Benar-benar terisi ulang dengan waktu sendiri", "emoji": "😌", "emotion": "calm" },
+      "deep2": { "text": "Cemas membuang-buang waktu", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Emosi campur aduk dan bingung", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q8": {
+      "scenario": "Kamu membuat kesalahan besar yang merugikan orang lain.",
+      "surface0": { "text": "Minta maaf dengan tenang dan cari solusi", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"Aku yang perbaiki!\" — ambil tanggung jawab", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Coba meremehkan situasinya", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Coba cairkan suasana", "emoji": "😅", "emotion": "cheerful" },
+      "deep0": { "text": "Rasa bersalah bikin tidak bisa tidur", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Takut dinilai orang lain", "emoji": "😨", "emotion": "fearful" },
+      "deep2": { "text": "Marah pada diri sendiri", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Kewalahan tidak tahu cara memperbaiki", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q9": {
+      "scenario": "Kesempatan yang kamu impikan tiba-tiba muncul.",
+      "surface0": { "text": "\"Oke, coba aja\" — tenang", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Bersemangat berbagi kabar", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Tunggu dan lihat dulu", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"Aku bisa\" — percaya diri", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Cemas: apa aku pantas?", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Jantung berdebar penuh semangat", "emoji": "🔥", "emotion": "passionate" },
+      "deep2": { "text": "Takut gagal", "emoji": "😨", "emotion": "fearful" },
+      "deep3": { "text": "Penuh rasa syukur", "emoji": "💗", "emotion": "tender" }
+    }
+  },
+  "emotions": {
+    "calm": "Tenang", "cheerful": "Ceria", "indifferent": "Acuh", "confident": "Percaya Diri",
+    "angry": "Marah", "anxious": "Cemas", "lonely": "Kesepian", "sad": "Sedih",
+    "passionate": "Semangat", "tender": "Lembut", "confused": "Bingung", "fearful": "Takut"
+  },
+  "results": {
+    "volcano": { "name": "Gunung Es Vulkanik", "desc": "Tenang di permukaan, tapi lava mengalir di dalam", "analysis": "Kamu terlihat tenang dan tak tergoyahkan dari luar, tapi emosi yang intens — kemarahan, gairah, frustrasi — bergolak di dalam. Kamu ahli menekan perasaan kuat, tapi bisa meledak tanpa terduga. Temukan cara aman untuk menyalurkan api batinmu.", "gapDesc": "Kesenjangan besar antara ketenangan permukaan dan intensitas internal" },
+    "aurora": { "name": "Gunung Es Aurora", "desc": "Di balik senyum cerah, tersembunyi cahaya kesepian", "analysis": "Kamu memancarkan energi positif dan mengangkat semangat semua orang, tapi saat sendirian, kesepian atau kesedihan yang dalam muncul. Kecerahanmu itu nyata, tapi jangan lupa merawat emosi yang tersembunyi di baliknya.", "gapDesc": "Di bawah permukaan yang cerah terdapat kesepian tak terlihat" },
+    "coral": { "name": "Gunung Es Karang", "desc": "Hati yang lembut hidup di balik tampilan yang kuat", "analysis": "Kamu memproyeksikan kekuatan dan kepercayaan diri, tapi di baliknya kamu sangat empatis dan sensitif. Kamu lebih khawatir terhadap orang lain daripada yang kamu tunjukkan.", "gapDesc": "Kepekaan halus tersembunyi di balik fasad yang kuat" },
+    "abyss": { "name": "Gunung Es Laut Dalam", "desc": "Lautan emosi yang dalam dan kompleks di bawah permukaan yang acuh", "analysis": "Dari luar kamu tampak tidak memiliki emosi, tapi sebenarnya kamu memiliki dunia emosional yang paling kaya. Kamu merasakan kesedihan, ketakutan, dan kesepian secara mendalam tanpa menunjukkan apapun di permukaan.", "gapDesc": "Kesenjangan sangat besar antara permukaan yang acuh dan emosi internal yang dalam" },
+    "crystal": { "name": "Gunung Es Kristal", "desc": "Keindahan transparansi keselarasan emosional", "analysis": "Emosi permukaan dan dalammu selaras secara mengagumkan. Kamu mengekspresikan apa yang kamu rasakan tanpa menyembunyikan. Transparansi emosional ini adalah kualitas langka yang membangun kepercayaan mendalam.", "gapDesc": "Transparansi emosional tinggi — permukaan dan kedalaman hampir selaras" },
+    "fog": { "name": "Gunung Es Kabut", "desc": "Dalam perjalanan menemukan emosimu melalui kabut", "analysis": "Kamu mungkin sulit menentukan dengan tepat apa yang kamu rasakan. Baik di permukaan maupun di dalam, emosimu terasa kusut dan tidak jelas. Ini adalah fase alami dan bisa menjadi titik awal penemuan diri yang lebih dalam.", "gapDesc": "Masih mencari arah di emosi permukaan maupun internal" }
+  },
+  "result": { "analysisTitle": "Kedalaman Emosionalmu", "aboveLabel": "Yang kamu tunjukkan", "belowLabel": "Yang kamu sembunyikan", "retry": "Coba lagi" },
+  "share": { "title": "Bagikan Hasilmu", "copyLink": "Salin link", "copied": "Tersalin!", "text": "Tipe gunung es emosiku adalah", "cta": "Temukan milikmu!" }
+}

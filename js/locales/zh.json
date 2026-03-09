@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "情绪冰山测试 - DopaBrain",
+    "description": "探索你展示给世界的情绪与内心真实感受之间的差距。来做情绪冰山测试吧！"
+  },
+  "a11y": { "skipToContent": "跳转到正文" },
+  "loader": { "loading": "加载中..." },
+  "app": {
+    "title": "情绪冰山测试",
+    "subtitle": "发现你展示给世界的情绪与内心真实感受之间的差距",
+    "startDesc": "通过10个场景，分析你的表面情绪和隐藏的内心世界。",
+    "startBtn": "开始测试"
+  },
+  "question": {
+    "scenario": "场景",
+    "surfaceStep": "表面反应",
+    "deepStep": "隐藏的感受",
+    "surfaceQ": "你外在会怎么反应？",
+    "deepQ": "你内心真正的感受是什么？"
+  },
+  "questions": {
+    "q0": {
+      "scenario": "好朋友没叫你，和其他朋友一起去旅行了。",
+      "surface0": { "text": "\"玩得开心！\"酷酷地送别", "emoji": "😊", "emotion": "calm" },
+      "surface1": { "text": "\"好羡慕！多拍照片\"开心地回应", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "假装不在意", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"我也快要去旅行了\"自信地说", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "为什么只漏掉我，感到委屈", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "感觉被抛下，很孤独", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "说实话有点生气", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "真的不在意", "emoji": "😌", "emotion": "calm" }
+    },
+    "q1": {
+      "scenario": "你的想法在工作或学校被忽视了。",
+      "surface0": { "text": "\"这很正常\"一笑而过", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "微笑着提出新想法", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "面无表情地沉默", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "\"请再听一次\"自信地说", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "担心自己的价值没被认可", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "内心怒火中烧", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "难过，自信心下降", "emoji": "😞", "emotion": "sad" },
+      "deep3": { "text": "一定要证明自己的热情涌上来", "emoji": "⚡", "emotion": "passionate" }
+    },
+    "q2": {
+      "scenario": "恋人或亲近的人最近联系变少了。",
+      "surface0": { "text": "大概是忙吧，耐心等待", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "轻松地发个消息", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "自己也不联系了", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "主动联系约见面", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "担心是不是不喜欢我了", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "感觉像被抛弃一样孤独", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "为什么这样对我，感到愤怒", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "担心对方，很想念", "emoji": "💗", "emotion": "tender" }
+    },
+    "q3": {
+      "scenario": "在社交媒体上看到大家都在晒幸福。",
+      "surface0": { "text": "点赞后继续刷", "emoji": "👍", "emotion": "calm" },
+      "surface1": { "text": "留下祝贺评论", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "直接滑过", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "也发自己的日常", "emoji": "📸", "emotion": "confident" },
+      "deep0": { "text": "觉得自己落后了，很焦虑", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "为什么自己不能那样，感到难过", "emoji": "😢", "emotion": "sad" },
+      "deep2": { "text": "冷笑着想都是装的", "emoji": "😒", "emotion": "angry" },
+      "deep3": { "text": "没什么特别感觉", "emoji": "😌", "emotion": "calm" }
+    },
+    "q4": {
+      "scenario": "即将进行一场重要的演讲或面试。",
+      "surface0": { "text": "冷静地准备", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"一定行的！\"积极乐观", "emoji": "✨", "emotion": "cheerful" },
+      "surface2": { "text": "装作没什么大不了的", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "展现一定要做好的决心", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "害怕失败", "emoji": "😨", "emotion": "fearful" },
+      "deep1": { "text": "紧张得胃都翻了", "emoji": "😰", "emotion": "anxious" },
+      "deep2": { "text": "充满期待和兴奋", "emoji": "🔥", "emotion": "passionate" },
+      "deep3": { "text": "不知道会怎样，感到困惑", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q5": {
+      "scenario": "有人讽刺你的外貌或性格。",
+      "surface0": { "text": "笑着带过", "emoji": "😅", "emotion": "cheerful" },
+      "surface1": { "text": "机智地回怼", "emoji": "😎", "emotion": "confident" },
+      "surface2": { "text": "假装没听到", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "直接无视", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "受伤到回家可能会哭", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "气得血都要沸腾了", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "焦虑地想这是不是真的", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "真的不受影响", "emoji": "😌", "emotion": "calm" }
+    },
+    "q6": {
+      "scenario": "你重要的人正在经历困难时期。",
+      "surface0": { "text": "\"没事的，会好起来的\"鼓励他们", "emoji": "🙂", "emotion": "cheerful" },
+      "surface1": { "text": "提供实际的帮助", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "安静地陪在身边", "emoji": "😐", "emotion": "calm" },
+      "surface3": { "text": "\"时间会治愈一切\"冷静地说", "emoji": "😶", "emotion": "indifferent" },
+      "deep0": { "text": "心疼到想哭", "emoji": "💗", "emotion": "tender" },
+      "deep1": { "text": "感到无能为力", "emoji": "😞", "emotion": "sad" },
+      "deep2": { "text": "对造成伤害的事物感到愤怒", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "不知道该怎么做", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q7": {
+      "scenario": "难得一个人度过的周末。",
+      "surface0": { "text": "\"终于可以休息了！\"开心地说", "emoji": "😄", "emotion": "cheerful" },
+      "surface1": { "text": "制定各种计划", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "不做什么特别的事", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "说自己在放松", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "没人找我，好孤独", "emoji": "🥺", "emotion": "lonely" },
+      "deep1": { "text": "真心享受独处时光", "emoji": "😌", "emotion": "calm" },
+      "deep2": { "text": "焦虑这段时间该做什么", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "各种情绪交织在一起很混乱", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q8": {
+      "scenario": "犯了大错，给别人造成了损失。",
+      "surface0": { "text": "冷静地道歉并寻找解决方案", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"我来解决！\"积极应对", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "试图淡化事态", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "试图用幽默缓解气氛", "emoji": "😅", "emotion": "cheerful" },
+      "deep0": { "text": "自责到失眠", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "害怕别人怎么看自己", "emoji": "😨", "emotion": "fearful" },
+      "deep2": { "text": "对自己犯的错感到愤怒", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "不知如何收拾，一片茫然", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q9": {
+      "scenario": "梦寐以求的机会突然出现了。",
+      "surface0": { "text": "\"不错，试试看\"淡定地回应", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "兴奋地告诉周围的人", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "先观望一下", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"我能行\"展现自信", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "焦虑自己是否配得上", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "心跳加速，热情燃烧", "emoji": "🔥", "emotion": "passionate" },
+      "deep2": { "text": "害怕失败", "emoji": "😨", "emotion": "fearful" },
+      "deep3": { "text": "充满感恩和感动", "emoji": "💗", "emotion": "tender" }
+    }
+  },
+  "emotions": {
+    "calm": "冷静",
+    "cheerful": "开朗",
+    "indifferent": "淡然",
+    "confident": "自信",
+    "angry": "愤怒",
+    "anxious": "焦虑",
+    "lonely": "孤独",
+    "sad": "悲伤",
+    "passionate": "热情",
+    "tender": "温柔",
+    "confused": "困惑",
+    "fearful": "恐惧"
+  },
+  "results": {
+    "volcano": {
+      "name": "火山冰山",
+      "desc": "表面平静，内心却有岩浆在流淌",
+      "analysis": "你外表看起来沉着冷静，但内心深处涌动着强烈的情绪——愤怒、热情、不满。你擅长压抑强烈的感受，但可能会在意想不到的时刻爆发。找到安全释放内心之火的方式能带来平衡。",
+      "gapDesc": "表面的平静与内心的激烈之间存在巨大差距"
+    },
+    "aurora": {
+      "name": "极光冰山",
+      "desc": "灿烂笑容背后隐藏着孤独的光芒",
+      "analysis": "你散发着积极的能量，让每个人都感到快乐，但独处时深深的孤独或悲伤会浮现。你的阳光是真实的，但别忘了关照隐藏在背后的情绪。",
+      "gapDesc": "明亮的表面之下存在着看不见的孤独"
+    },
+    "coral": {
+      "name": "珊瑚冰山",
+      "desc": "坚强外表下住着一颗柔软的心",
+      "analysis": "你看起来坚强又自信，但实际上你有着细腻温暖的情感。你对他人的痛苦深感共鸣，也很担心别人，但很少表露出来。偶尔展示脆弱的一面也没关系。",
+      "gapDesc": "坚强外表下隐藏着细腻的感性"
+    },
+    "abyss": {
+      "name": "深海冰山",
+      "desc": "冷漠表面之下是深邃复杂的情感海洋",
+      "analysis": "从外面看，你好像没什么感情，但实际上你拥有最丰富深邃的情感世界。你深深地感受着悲伤、恐惧和孤独，却在表面不露分毫。",
+      "gapDesc": "冷漠的表面和深层内心情感之间有着巨大的鸿沟"
+    },
+    "crystal": {
+      "name": "水晶冰山",
+      "desc": "情感一致的透明之美",
+      "analysis": "你的表面情绪和内心感受惊人地一致。你表达所感，不加掩饰。这种情感透明是非常稀有的品质，也是周围人信任你的原因。",
+      "gapDesc": "高度的情感透明——表面和深层几乎一致"
+    },
+    "fog": {
+      "name": "迷雾冰山",
+      "desc": "在迷雾中寻找自我情感的旅程",
+      "analysis": "你可能发现很难准确辨别自己的感受。无论是在表面还是内心，你的情绪都感觉纠结不清。这是一个自然的阶段，可以成为更深层自我探索的起点。",
+      "gapDesc": "在表面和内心都在寻找情感的方向"
+    }
+  },
+  "result": {
+    "analysisTitle": "你的情感深度",
+    "aboveLabel": "展示的情绪",
+    "belowLabel": "隐藏的情绪",
+    "retry": "再来一次"
+  },
+  "share": {
+    "title": "分享结果",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "text": "我的情绪冰山类型是",
+    "cta": "快来测测你的吧！"
+  }
+}

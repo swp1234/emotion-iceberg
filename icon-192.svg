@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ED6F5"/>
+      <stop offset="100%" style="stop-color:#2E86AB"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E86AB"/>
+      <stop offset="100%" style="stop-color:#1a4f6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <!-- Water line -->
+  <rect x="20" y="88" width="152" height="2" rx="1" fill="#2E86AB" opacity="0.4"/>
+  <!-- Above water (small tip) -->
+  <polygon points="96,40 116,85 76,85" fill="url(#ice)" opacity="0.9"/>
+  <!-- Below water (large mass) -->
+  <polygon points="60,95 132,95 145,130 125,160 67,160 47,130" fill="url(#deep)" opacity="0.7"/>
+  <!-- Glow -->
+  <polygon points="60,95 132,95 145,130 125,160 67,160 47,130" fill="none" stroke="#2E86AB" stroke-width="1" opacity="0.3"/>
+</svg>

@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "Emotion Iceberg Test - DopaBrain",
+    "description": "Discover what emotions you show the world vs. what you truly feel inside. Take the Emotion Iceberg Test!"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
+  "loader": {
+    "loading": "Loading..."
+  },
+  "app": {
+    "title": "Emotion Iceberg Test",
+    "subtitle": "Discover what you show the world vs. what you truly feel inside",
+    "startDesc": "10 scenarios will reveal the gap between your surface emotions and your hidden depths.",
+    "startBtn": "Dive In"
+  },
+  "question": {
+    "scenario": "Scenario",
+    "surfaceStep": "Surface Reaction",
+    "deepStep": "Hidden Feeling",
+    "surfaceQ": "How do you react on the outside?",
+    "deepQ": "What do you actually feel inside?"
+  },
+  "questions": {
+    "q0": {
+      "scenario": "Your close friend went on a trip with other friends, without inviting you.",
+      "surface0": { "text": "\"Have fun!\" — you play it cool", "emoji": "😊", "emotion": "calm" },
+      "surface1": { "text": "\"So jealous! Send pics!\" — bright and cheerful", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Act like you don't really care", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"I'm planning my own trip soon\" — confident", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Feel hurt about being left out", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Feel lonely being left behind", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Actually kind of angry about it", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Genuinely don't mind at all", "emoji": "😌", "emotion": "calm" }
+    },
+    "q1": {
+      "scenario": "Your idea was dismissed at work or school.",
+      "surface0": { "text": "\"It happens\" — shrug it off", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Smile and suggest another idea", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Stay quiet and expressionless", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "\"Let me explain again\" — stand your ground", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Feel anxious about your value being unrecognized", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Rage is boiling inside", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Feel sad and lose confidence", "emoji": "😞", "emotion": "sad" },
+      "deep3": { "text": "Burning desire to prove them wrong", "emoji": "⚡", "emotion": "passionate" }
+    },
+    "q2": {
+      "scenario": "Your partner or close person has been distant lately.",
+      "surface0": { "text": "Wait patiently — they must be busy", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Send a light, casual message", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Stop reaching out too", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Take initiative and make plans", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Anxious they might not like you anymore", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Feel lonely and abandoned", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Angry about being treated this way", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Worried about them and miss them deeply", "emoji": "💗", "emotion": "tender" }
+    },
+    "q3": {
+      "scenario": "You see everyone posting happy moments on social media.",
+      "surface0": { "text": "Like the post and scroll on", "emoji": "👍", "emotion": "calm" },
+      "surface1": { "text": "Leave congratulatory comments", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Just scroll past without engaging", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Post your own highlights", "emoji": "📸", "emotion": "confident" },
+      "deep0": { "text": "Feel anxious about falling behind", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Sad wondering why you can't have that", "emoji": "😢", "emotion": "sad" },
+      "deep2": { "text": "Cynically think it's all fake anyway", "emoji": "😒", "emotion": "angry" },
+      "deep3": { "text": "Genuinely don't think much of it", "emoji": "😌", "emotion": "calm" }
+    },
+    "q4": {
+      "scenario": "You have an important presentation or interview coming up.",
+      "surface0": { "text": "Prepare calmly and methodically", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"I've got this!\" — stay upbeat", "emoji": "✨", "emotion": "cheerful" },
+      "surface2": { "text": "Act like it's not a big deal", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Show determination to nail it", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Terrified of failing", "emoji": "😨", "emotion": "fearful" },
+      "deep1": { "text": "So nervous your stomach is in knots", "emoji": "😰", "emotion": "anxious" },
+      "deep2": { "text": "Filled with excitement and anticipation", "emoji": "🔥", "emotion": "passionate" },
+      "deep3": { "text": "Confused and unsure what to expect", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q5": {
+      "scenario": "Someone made a sarcastic remark about your appearance or personality.",
+      "surface0": { "text": "Laugh it off", "emoji": "😅", "emotion": "cheerful" },
+      "surface1": { "text": "Fire back with a witty comeback", "emoji": "😎", "emotion": "confident" },
+      "surface2": { "text": "Pretend you didn't hear it", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "Simply ignore them", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "Hurt so much you might cry later", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Furious inside — blood boiling", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Anxious wondering if it's actually true", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Truly unbothered by such comments", "emoji": "😌", "emotion": "calm" }
+    },
+    "q6": {
+      "scenario": "Someone important to you is going through a tough time.",
+      "surface0": { "text": "\"It'll be okay, stay strong\" — encourage them", "emoji": "🙂", "emotion": "cheerful" },
+      "surface1": { "text": "Offer practical help and solutions", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Quietly stay by their side", "emoji": "😐", "emotion": "calm" },
+      "surface3": { "text": "\"Time heals everything\" — stay composed", "emoji": "😶", "emotion": "indifferent" },
+      "deep0": { "text": "Heart aches so much it brings tears", "emoji": "💗", "emotion": "tender" },
+      "deep1": { "text": "Feel powerless that you can't do more", "emoji": "😞", "emotion": "sad" },
+      "deep2": { "text": "Furious at whatever caused their pain", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Confused about what you should do", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q7": {
+      "scenario": "You have a whole weekend to yourself.",
+      "surface0": { "text": "\"Finally, a day off!\" — genuinely excited", "emoji": "😄", "emotion": "cheerful" },
+      "surface1": { "text": "Plan out activities and errands", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Don't really do anything special", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Say you're just relaxing", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "Lonely that nobody reached out", "emoji": "🥺", "emotion": "lonely" },
+      "deep1": { "text": "Genuinely recharged by solo time", "emoji": "😌", "emotion": "calm" },
+      "deep2": { "text": "Anxious about wasting the time", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Mixed emotions leaving you confused", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q8": {
+      "scenario": "You made a big mistake that affected someone else.",
+      "surface0": { "text": "Apologize calmly and seek solutions", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"I'll fix this!\" — take charge actively", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Try to downplay the situation", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Try to lighten the mood", "emoji": "😅", "emotion": "cheerful" },
+      "deep0": { "text": "Guilt keeps you up at night", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Afraid of how others will see you", "emoji": "😨", "emotion": "fearful" },
+      "deep2": { "text": "Furious at yourself for the mistake", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Overwhelmed and don't know how to fix it", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q9": {
+      "scenario": "An opportunity you've been dreaming of suddenly appears.",
+      "surface0": { "text": "\"Cool, I'll give it a shot\" — stay composed", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Excitedly share the news with everyone", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Take a wait-and-see approach", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"I can do this\" — show confidence", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Anxious about whether you deserve it", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Heart racing with passion and drive", "emoji": "🔥", "emotion": "passionate" },
+      "deep2": { "text": "Afraid of failing", "emoji": "😨", "emotion": "fearful" },
+      "deep3": { "text": "Overwhelmed with gratitude", "emoji": "💗", "emotion": "tender" }
+    }
+  },
+  "emotions": {
+    "calm": "Calm",
+    "cheerful": "Cheerful",
+    "indifferent": "Indifferent",
+    "confident": "Confident",
+    "angry": "Anger",
+    "anxious": "Anxiety",
+    "lonely": "Loneliness",
+    "sad": "Sadness",
+    "passionate": "Passion",
+    "tender": "Tenderness",
+    "confused": "Confusion",
+    "fearful": "Fear"
+  },
+  "results": {
+    "volcano": {
+      "name": "Volcano Iceberg",
+      "desc": "Calm on the surface, but molten lava flows within",
+      "analysis": "You appear composed and unshakable on the outside, but intense emotions — anger, passion, frustration — churn beneath. You're skilled at suppressing strong feelings, but they may erupt unexpectedly. Finding safe outlets for your inner fire could bring balance.",
+      "gapDesc": "A significant gap exists between your surface calm and inner intensity"
+    },
+    "aurora": {
+      "name": "Aurora Iceberg",
+      "desc": "Behind the bright smile lies a solitary glow",
+      "analysis": "You radiate positive energy and lift everyone's spirits, but when alone, deep loneliness or sadness surfaces. Your brightness is genuine, but don't forget to tend to the emotions hiding behind it. It's okay to not always be the cheerful one.",
+      "gapDesc": "Beneath the bright surface lies an invisible solitude"
+    },
+    "coral": {
+      "name": "Coral Iceberg",
+      "desc": "A tender heart lives beneath the tough exterior",
+      "analysis": "You project strength and confidence, but underneath you're deeply empathetic and sensitive. You worry about others more than you show, and your gentle nature often stays hidden. Showing vulnerability sometimes can deepen your connections.",
+      "gapDesc": "Delicate sensitivity hides beneath the strong facade"
+    },
+    "abyss": {
+      "name": "Deep Sea Iceberg",
+      "desc": "An ocean of deep, complex emotions beneath the indifferent surface",
+      "analysis": "On the outside, you seem emotionally detached, but you actually possess one of the richest emotional worlds of anyone. You feel sadness, fear, and loneliness profoundly while revealing nothing on the surface. Your depth is your superpower — don't be afraid to let others see it.",
+      "gapDesc": "The gap between your indifferent surface and deep inner emotions is vast"
+    },
+    "crystal": {
+      "name": "Crystal Iceberg",
+      "desc": "The beautiful transparency of emotional alignment",
+      "analysis": "Your surface emotions and inner feelings are remarkably aligned. You express what you feel without hiding. This emotional transparency is a rare quality that builds deep trust with others. Keep honoring your authentic self.",
+      "gapDesc": "High emotional transparency — surface and depth are nearly aligned"
+    },
+    "fog": {
+      "name": "Fog Iceberg",
+      "desc": "On a journey to find your emotions through the mist",
+      "analysis": "You may find it difficult to pinpoint exactly what you're feeling. Both on the surface and inside, your emotions feel tangled and unclear. This is a natural phase and can be the starting point of deeper self-discovery. Give yourself grace as you navigate.",
+      "gapDesc": "Still finding direction in both surface and inner emotions"
+    }
+  },
+  "result": {
+    "analysisTitle": "Your Emotional Depth",
+    "aboveLabel": "What you show",
+    "belowLabel": "What you hide",
+    "retry": "Try Again"
+  },
+  "share": {
+    "title": "Share Your Results",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "text": "My emotion iceberg type is",
+    "cta": "Find out yours!"
+  }
+}

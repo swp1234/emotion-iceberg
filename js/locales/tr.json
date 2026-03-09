@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Duygu Buzdagi Testi - DopaBrain",
+    "description": "Dunyaya hangi duygulari gosterdigini ve icinde gercekten ne hissettigini kesfet. Duygu Buzdagi Testini yap!"
+  },
+  "a11y": { "skipToContent": "Icerige atla" },
+  "loader": { "loading": "Yukleniyor..." },
+  "app": {
+    "title": "Duygu Buzdagi Testi",
+    "subtitle": "Dunyaya gosterdigin duygular ile icinde gercekten hissettiklerin arasindaki farki kesfet",
+    "startDesc": "10 senaryo, yuzey duygularin ile gizli derinliklerin arasindaki ucurumu ortaya cikaracak.",
+    "startBtn": "Basla"
+  },
+  "question": {
+    "scenario": "Senaryo",
+    "surfaceStep": "Yuzey Tepki",
+    "deepStep": "Gizli Duygu",
+    "surfaceQ": "Disaridan nasil tepki verirsin?",
+    "deepQ": "Icinden gercekten ne hissedersin?"
+  },
+  "questions": {
+    "q0": {
+      "scenario": "Yakin arkadasin seni cagirmadan baska arkadaslarla tatile gitti.",
+      "surface0": { "text": "\"Iyi eglenceler!\" — sakin kalinir", "emoji": "😊", "emotion": "calm" },
+      "surface1": { "text": "\"Cok kiskandim! Foto atin\" — neseli", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Umursamaz gorunursun", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"Ben de yakinda gidecegim\" — ozguvenli", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Disarida birakilmak acitiyor", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Geride kalmak yalniz hissettiriyor", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Aslinda biraz kizgin", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Gercekten umursamiyorum", "emoji": "😌", "emotion": "calm" }
+    },
+    "q1": {
+      "scenario": "Is yerinde veya okulda fikrin gormezden gelindi.",
+      "surface0": { "text": "\"Olur boyle seyler\" — gecistirirsin", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Gulumseyip baska bir fikir onerirsin", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Ifadesiz sessiz kalirsin", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "\"Tekrar dinleyin\" — israr edersin", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Degerinin taninmamasi endise verir", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Icinde ofke kaynyor", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Uzulursun ve ozguvenin duser", "emoji": "😞", "emotion": "sad" },
+      "deep3": { "text": "Kanitlama istegi alev alir", "emoji": "⚡", "emotion": "passionate" }
+    },
+    "q2": {
+      "scenario": "Partnerin veya yakin birin son zamanlarda az iletisim kuruyor.",
+      "surface0": { "text": "Mesguldur diye beklersin", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Hafif bir mesaj atarsin", "emoji": "😄", "emotion": "cheerful" },
+      "surface2": { "text": "Sen de iletisimi kesersin", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Insiyatif alip bulusma ayarlarsin", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Benden hoslanmiyor mu diye endise", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Yalniz ve terk edilmis hissedersin", "emoji": "🥺", "emotion": "lonely" },
+      "deep2": { "text": "Boyle davranilmasina kizarsin", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Merak eder ve cok ozlersin", "emoji": "💗", "emotion": "tender" }
+    },
+    "q3": {
+      "scenario": "Sosyal medyada herkes mutlu anlarini paylasiyor.",
+      "surface0": { "text": "Begeni atip gecersin", "emoji": "👍", "emotion": "calm" },
+      "surface1": { "text": "Tebrik yorumu birakrsin", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Sadece kaydirrsin", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Sen de kendi anlarini paylasirsn", "emoji": "📸", "emotion": "confident" },
+      "deep0": { "text": "Geride kalma endisesi", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Neden ben olamiyorum diye uzulursun", "emoji": "😢", "emotion": "sad" },
+      "deep2": { "text": "Hepsi yapmacik diye dusunursun", "emoji": "😒", "emotion": "angry" },
+      "deep3": { "text": "Pek bir sey dusunmezsin", "emoji": "😌", "emotion": "calm" }
+    },
+    "q4": {
+      "scenario": "Onemli bir sunum veya mulakat yaklsiyor.",
+      "surface0": { "text": "Sakin sakin hazirlanirsin", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"Yapabilirim!\" — pozitifsin", "emoji": "✨", "emotion": "cheerful" },
+      "surface2": { "text": "Buyuk is degil gibi davranirsin", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Basarma kararliligi gosterirsin", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Basarisiz olma korkusu", "emoji": "😨", "emotion": "fearful" },
+      "deep1": { "text": "Miden bulanacak kadar gerginlik", "emoji": "😰", "emotion": "anxious" },
+      "deep2": { "text": "Heyecan ve istekle dolusin", "emoji": "🔥", "emotion": "passionate" },
+      "deep3": { "text": "Ne olacak bilememe kargasasi", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q5": {
+      "scenario": "Biri gorunusun veya kisiligine alayli bir yorum yapti.",
+      "surface0": { "text": "Gulerek gecistirirsin", "emoji": "😅", "emotion": "cheerful" },
+      "surface1": { "text": "Hazircevap karsilik verirsin", "emoji": "😎", "emotion": "confident" },
+      "surface2": { "text": "Duymamis gibi yaparsin", "emoji": "😶", "emotion": "indifferent" },
+      "surface3": { "text": "Gormezden gelirsin", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "O kadar incinirsin ki sonra aglayabilirsin", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Icinden ofke kaynyor", "emoji": "🔥", "emotion": "angry" },
+      "deep2": { "text": "Ya dogrsuysa diye endise", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Gercekten etkilenmezsin", "emoji": "😌", "emotion": "calm" }
+    },
+    "q6": {
+      "scenario": "Onemli biri zor bir donemden geciyor.",
+      "surface0": { "text": "\"Her sey duzulecek\" — cesaret verirsin", "emoji": "🙂", "emotion": "cheerful" },
+      "surface1": { "text": "Pratik yardim teklif edersin", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Sessizce yaninda olursun", "emoji": "😐", "emotion": "calm" },
+      "surface3": { "text": "\"Zaman herseyi cozer\" — sakin", "emoji": "😶", "emotion": "indifferent" },
+      "deep0": { "text": "Kalbin o kadar agriyor ki gozlerin doluyor", "emoji": "💗", "emotion": "tender" },
+      "deep1": { "text": "Daha fazla yapamama caresizligi", "emoji": "😞", "emotion": "sad" },
+      "deep2": { "text": "Acinin sebebine ofke", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Ne yapmam gerektigini bilememe", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q7": {
+      "scenario": "Tamamen sana ait bir hafta sonun var.",
+      "surface0": { "text": "\"Sonunda tatil!\" — sevinirsin", "emoji": "😄", "emotion": "cheerful" },
+      "surface1": { "text": "Aktiviteler planlarsin", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Ozel bir sey yapmazsin", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Sadece dinleniyorum dersin", "emoji": "🙂", "emotion": "calm" },
+      "deep0": { "text": "Kimse aramamasinin yalnizligi", "emoji": "🥺", "emotion": "lonely" },
+      "deep1": { "text": "Yalniz kalmaktan gercekten enerji alirsin", "emoji": "😌", "emotion": "calm" },
+      "deep2": { "text": "Zamani bosa harcama endisesi", "emoji": "😰", "emotion": "anxious" },
+      "deep3": { "text": "Karisik duygular ve kargasa", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q8": {
+      "scenario": "Buyuk bir hata yapip baska birini etkiledm.",
+      "surface0": { "text": "Sakin ozur diler ve cozum ararsin", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "\"Ben hallederim!\" — sorumluluk alirsin", "emoji": "💪", "emotion": "confident" },
+      "surface2": { "text": "Durumu kucultsemeye calisirsin", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "Havay hafifletmeye calisirsin", "emoji": "😅", "emotion": "cheerful" },
+      "deep0": { "text": "Sucluuk uyutmuyor", "emoji": "😢", "emotion": "sad" },
+      "deep1": { "text": "Baskalrinin gozunde nasil goruneceginin korkusu", "emoji": "😨", "emotion": "fearful" },
+      "deep2": { "text": "Hatandan dolayi kendine ofke", "emoji": "😤", "emotion": "angry" },
+      "deep3": { "text": "Nasil duzeltecegini bilememe", "emoji": "🌀", "emotion": "confused" }
+    },
+    "q9": {
+      "scenario": "Hayal ettigin firsat aniden ortaya cikti.",
+      "surface0": { "text": "\"Guzel, denerim\" — sakin", "emoji": "🙂", "emotion": "calm" },
+      "surface1": { "text": "Heyecanla herkese anlatirsin", "emoji": "🎉", "emotion": "cheerful" },
+      "surface2": { "text": "Bekle-gor tavrini takinirsn", "emoji": "😐", "emotion": "indifferent" },
+      "surface3": { "text": "\"Yapabilirim\" — ozguvenli", "emoji": "💪", "emotion": "confident" },
+      "deep0": { "text": "Bunu hak ediyor muyum endisesi", "emoji": "😰", "emotion": "anxious" },
+      "deep1": { "text": "Kalbin tutku ile carpiyor", "emoji": "🔥", "emotion": "passionate" },
+      "deep2": { "text": "Basarisiz olma korkusu", "emoji": "😨", "emotion": "fearful" },
+      "deep3": { "text": "Minnettarlik dolu", "emoji": "💗", "emotion": "tender" }
+    }
+  },
+  "emotions": {
+    "calm": "Sakinlik", "cheerful": "Neselilik", "indifferent": "Kayitsizlik", "confident": "Ozguven",
+    "angry": "Ofke", "anxious": "Kaygi", "lonely": "Yalnizlik", "sad": "Huzun",
+    "passionate": "Tutku", "tender": "Sefkat", "confused": "Kargasa", "fearful": "Korku"
+  },
+  "results": {
+    "volcano": { "name": "Yanardagi Buzdagi", "desc": "Yuzey sakin ama icinde lav akiyor", "analysis": "Disaridan sakin ve sarsimaz gorunursun ama icinde siddetli duygular — ofke, tutku, hayal kiriklig — kaynyor. Guclu duygulari bastirmakta ustasn ama beklenmedik anda patlayabilirler.", "gapDesc": "Yuzey sakinligi ile ic yogunluk arasinda buyuk ucurum" },
+    "aurora": { "name": "Kutup Isigi Buzdagi", "desc": "Parlak gulumsemenin ardinda yalniz bir isik", "analysis": "Pozitif enerji yayar ve herkesin moralini yukseltirsin ama yalniz kalinca derin bir yalnizlik veya huzun yuzey cikar. Parlaklgn gercek ama arkasinda gizlenen duygulari da gozetmeyi unutma.", "gapDesc": "Parlak yuzeyin altinda gorunmeyen bir yalnizlik var" },
+    "coral": { "name": "Mercan Buzdagi", "desc": "Sert disin altinda yumusak bir kalp yasiyor", "analysis": "Guc ve ozguven yansitrsin ama altinda derince empatik ve hassassin. Baskalarina gosteridiginden daha fazla endiselenirsin.", "gapDesc": "Guclu cephenin altinda nazik hassasiyet gizli" },
+    "abyss": { "name": "Derin Deniz Buzdagi", "desc": "Kayitsiz yuzeyin altinda derin ve karmasik duygular okyanusu", "analysis": "Disaridan duygusal olarak mesafeli gorunursun ama aslinda en zengin duygusal dunyalardan birine sahipsin. Huzun, korku ve yalnizligi derinden hisseder ama yuzde hicbir sey gostermezsin.", "gapDesc": "Kayitsiz yuzey ile derin ic duygular arasinda muazzam ucurum" },
+    "crystal": { "name": "Kristal Buzdagi", "desc": "Duygusal uyumun guzel seffafligi", "analysis": "Yuzey ve ic duygulanin sasiritici olcude uyumlu. Hissettigini saklmadan ifade edersin. Bu duygusal seffaflik nadir bir ozelliktir ve derin guven olusturur.", "gapDesc": "Yuksek duygusal seffaflik — yuzey ve derinlik neredeyse uyumlu" },
+    "fog": { "name": "Sis Buzdagi", "desc": "Sisin icinde duygularini bulmak icin bir yolculukta", "analysis": "Tam olarak ne hissettigini belirlemek zor olabilir. Hem yuzyde hem icte duygulanin karisik ve belirsiz. Bu dogal bir evredir ve daha derin bir kesfin baslangci olabilir.", "gapDesc": "Hem yuzey hem ic duygularda yon ariyor" }
+  },
+  "result": { "analysisTitle": "Duygusal Derinligin", "aboveLabel": "Gosterdigin", "belowLabel": "Gizledigin", "retry": "Tekrar dene" },
+  "share": { "title": "Sonuclarini paylas", "copyLink": "Baglanti kopyala", "copied": "Kopyalandi!", "text": "Duygu buzdagi tipim", "cta": "Sen de kesfet!" }
+}
