@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Emotions-Eisberg-Test - DopaBrain",
-    "description": "Entdecke, welche Emotionen du der Welt zeigst vs. was du wirklich fuehlst. Mach den Emotions-Eisberg-Test!"
+    "description": "Entdecke, welche Emotionen du der Welt zeigst vs. was du wirklich fuehlst. Mach den Emotions-Eisberg-Test!",
+    "participants": "12.400+ Teilnehmer",
+    "timeEstimate": "~2 Min \u2022 10 Szenarien",
+    "previewText": "Beliebtes Ergebnis:"
   },
   "a11y": { "skipToContent": "Zum Inhalt springen" },
   "loader": { "loading": "Laden..." },

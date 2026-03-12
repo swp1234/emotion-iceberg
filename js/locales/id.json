@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Tes Gunung Es Emosi - DopaBrain",
-    "description": "Temukan emosi apa yang kamu tunjukkan ke dunia vs. apa yang sebenarnya kamu rasakan. Ikuti Tes Gunung Es Emosi!"
+    "description": "Temukan emosi apa yang kamu tunjukkan ke dunia vs. apa yang sebenarnya kamu rasakan. Ikuti Tes Gunung Es Emosi!",
+    "participants": "12.400+ peserta",
+    "timeEstimate": "~2 menit \u2022 10 skenario",
+    "previewText": "Hasil populer:"
   },
   "a11y": { "skipToContent": "Lewati ke konten" },
   "loader": { "loading": "Memuat..." },

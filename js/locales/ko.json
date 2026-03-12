@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "감정 빙산 테스트 - DopaBrain",
-    "description": "당신이 세상에 보여주는 감정 vs. 실제로 느끼는 감정을 알아보세요. 감정 빙산 테스트!"
+    "description": "당신이 세상에 보여주는 감정 vs. 실제로 느끼는 감정을 알아보세요. 감정 빙산 테스트!",
+    "participants": "12,400명+ 참여",
+    "timeEstimate": "~2분 \u2022 10개 시나리오",
+    "previewText": "인기 결과:"
   },
   "a11y": {
     "skipToContent": "본문으로 건너뛰기"

@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Duygu Buzdagi Testi - DopaBrain",
-    "description": "Dunyaya hangi duygulari gosterdigini ve icinde gercekten ne hissettigini kesfet. Duygu Buzdagi Testini yap!"
+    "description": "Dunyaya hangi duygulari gosterdigini ve icinde gercekten ne hissettigini kesfet. Duygu Buzdagi Testini yap!",
+    "participants": "12.400+ katilimci",
+    "timeEstimate": "~2 dk \u2022 10 senaryo",
+    "previewText": "Populer sonuc:"
   },
   "a11y": { "skipToContent": "Icerige atla" },
   "loader": { "loading": "Yukleniyor..." },

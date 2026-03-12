@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "情绪冰山测试 - DopaBrain",
-    "description": "探索你展示给世界的情绪与内心真实感受之间的差距。来做情绪冰山测试吧！"
+    "description": "探索你展示给世界的情绪与内心真实感受之间的差距。来做情绪冰山测试吧！",
+    "participants": "12,400+ 人已参与",
+    "timeEstimate": "~2分钟 \u2022 10个场景",
+    "previewText": "热门结果："
   },
   "a11y": { "skipToContent": "跳转到正文" },
   "loader": { "loading": "加载中..." },

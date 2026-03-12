@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "感情の氷山テスト - DopaBrain",
-    "description": "あなたが世界に見せる感情と、本当に感じている感情を探ってみましょう。感情の氷山テスト!"
+    "description": "あなたが世界に見せる感情と、本当に感じている感情を探ってみましょう。感情の氷山テスト!",
+    "participants": "12,400人以上が参加",
+    "timeEstimate": "約2分 \u2022 10のシナリオ",
+    "previewText": "人気の結果："
   },
   "a11y": { "skipToContent": "本文へスキップ" },
   "loader": { "loading": "読み込み中..." },

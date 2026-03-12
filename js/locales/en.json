@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Emotion Iceberg Test - DopaBrain",
-    "description": "Discover what emotions you show the world vs. what you truly feel inside. Take the Emotion Iceberg Test!"
+    "description": "Discover what emotions you show the world vs. what you truly feel inside. Take the Emotion Iceberg Test!",
+    "participants": "12,400+ participants",
+    "timeEstimate": "~2 min \u2022 10 scenarios",
+    "previewText": "Popular result:"
   },
   "a11y": {
     "skipToContent": "Skip to content"

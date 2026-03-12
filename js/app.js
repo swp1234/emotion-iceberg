@@ -415,11 +415,21 @@
 
   // Init
   function init() {
-    // Hide loader
-    const loader = $('app-loader');
-    if (loader) {
-      setTimeout(() => loader.classList.add('hidden'), 600);
+    // Hide loader — wait for i18n or max 2s
+    function hideLoader() {
+      const loader = $('app-loader');
+      if (loader) {
+        loader.classList.add('hidden');
+        setTimeout(() => loader.style.display = 'none', 400);
+      }
     }
+    const startTime = Date.now();
+    const waitForI18n = setInterval(() => {
+      if ((window.i18n && window.i18n.initialized) || Date.now() - startTime > 2000) {
+        clearInterval(waitForI18n);
+        hideLoader();
+      }
+    }, 50);
 
     // Start button
     $('start-btn').addEventListener('click', startTest);
