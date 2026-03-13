@@ -125,6 +125,16 @@
     $('progress-bar').style.width = progress + '%';
     $('question-counter').textContent = `${currentQuestion + 1} / ${TOTAL_QUESTIONS}`;
 
+    // Mid-quiz encouragement at question 5
+    const encourageEl = $('mid-quiz-encouragement');
+    if (encourageEl) {
+      if (currentQuestion === 4 && currentStep === 'deep') {
+        encourageEl.style.display = 'block';
+      } else if (currentQuestion > 5) {
+        encourageEl.style.display = 'none';
+      }
+    }
+
     // Update step indicator
     const stepIndicator = $('step-indicator');
     const stepLabel = stepIndicator.querySelector('.step-label');
@@ -176,6 +186,12 @@
       if (currentStep === 'surface') {
         answers.surface.push(emotion);
         currentStep = 'deep';
+        // Celebration flash when switching to deep questions
+        const card = document.querySelector('.question-card');
+        if (card) {
+          card.classList.add('celebration-flash');
+          setTimeout(() => card.classList.remove('celebration-flash'), 500);
+        }
         renderQuestion();
       } else {
         answers.deep.push(emotion);
@@ -187,7 +203,7 @@
           renderQuestion();
         }
       }
-    }, 300);
+    }, 200);
   }
 
   // Mini iceberg tag positions
@@ -303,8 +319,36 @@
     // Analysis text
     $('result-analysis').textContent = t(`results.${result.type}.analysis`, '');
 
-    // Gap score
-    $('gap-score').textContent = result.gapPercent + '%';
+    // Result narrative: "You show [surface] but feel [deep] inside"
+    const narrativeEl = $('result-narrative');
+    if (narrativeEl && result.topSurface.length > 0 && result.topDeep.length > 0) {
+      const surfaceEmotion = t(`emotions.${result.topSurface[0]}`, result.topSurface[0]);
+      const deepEmotion = t(`emotions.${result.topDeep[0]}`, result.topDeep[0]);
+      const narrativeTemplate = t('result.narrative', 'You show {surface} but feel {deep} inside');
+      narrativeEl.innerHTML = narrativeTemplate
+        .replace('{surface}', '<span class="surface-word">' + surfaceEmotion + '</span>')
+        .replace('{deep}', '<span class="deep-word">' + deepEmotion + '</span>');
+    }
+
+    // Gap score with count-up animation
+    const gapScoreEl = $('gap-score');
+    const targetPercent = result.gapPercent;
+    let currentCount = 0;
+    const countDuration = 1200;
+    const countSteps = 30;
+    const countInterval = countDuration / countSteps;
+    const countIncrement = targetPercent / countSteps;
+    gapScoreEl.classList.add('counting');
+    const countTimer = setInterval(() => {
+      currentCount += countIncrement;
+      if (currentCount >= targetPercent) {
+        currentCount = targetPercent;
+        clearInterval(countTimer);
+        gapScoreEl.classList.remove('counting');
+      }
+      gapScoreEl.textContent = Math.round(currentCount) + '%';
+    }, countInterval);
+
     setTimeout(() => {
       $('gap-bar').style.width = result.gapPercent + '%';
     }, 300);

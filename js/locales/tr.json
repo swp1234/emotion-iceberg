@@ -12,7 +12,16 @@
     "title": "Duygu Buzdagi Testi",
     "subtitle": "Dunyaya gosterdigin duygular ile icinde gercekten hissettiklerin arasindaki farki kesfet",
     "startDesc": "10 senaryo, yuzey duygularin ile gizli derinliklerin arasindaki ucurumu ortaya cikaracak.",
-    "startBtn": "Basla"
+    "startBtn": "Basla",
+    "startBtnEnhanced": "Neleri gizledigini kesfet"
+  },
+  "quiz": {
+    "midEncouragement": "Yarisina geldin! Buzdagin sekilleniyor..."
+  },
+  "teasers": {
+    "volcano": { "name": "Yanardagi", "desc": "Dista sakin, icte yangin" },
+    "aurora": { "name": "Kutup Isigi", "desc": "Parlak gulumseme, yalniz kalp" },
+    "coral": { "name": "Mercan", "desc": "Sert kabuk, yumusak kalp" }
   },
   "question": {
     "scenario": "Senaryo",
@@ -146,7 +155,7 @@
     "crystal": { "name": "Kristal Buzdagi", "desc": "Duygusal uyumun guzel seffafligi", "analysis": "Yuzey ve ic duygulanin sasiritici olcude uyumlu. Hissettigini saklmadan ifade edersin. Bu duygusal seffaflik nadir bir ozelliktir ve derin guven olusturur.", "gapDesc": "Yuksek duygusal seffaflik — yuzey ve derinlik neredeyse uyumlu" },
     "fog": { "name": "Sis Buzdagi", "desc": "Sisin icinde duygularini bulmak icin bir yolculukta", "analysis": "Tam olarak ne hissettigini belirlemek zor olabilir. Hem yuzyde hem icte duygulanin karisik ve belirsiz. Bu dogal bir evredir ve daha derin bir kesfin baslangci olabilir.", "gapDesc": "Hem yuzey hem ic duygularda yon ariyor" }
   },
-  "result": { "analysisTitle": "Duygusal Derinligin", "aboveLabel": "Gosterdigin", "belowLabel": "Gizledigin", "retry": "Tekrar dene", "moreTests": "Daha Fazla Kesfet", "percentileText": "katilimci senin tipini paylasiyor" },
+  "result": { "analysisTitle": "Duygusal Derinligin", "aboveLabel": "Gosterdigin", "belowLabel": "Gizledigin", "retry": "Tekrar dene", "moreTests": "Daha Fazla Kesfet", "percentileText": "katilimci senin tipini paylasiyor", "narrative": "{surface} gosteriyorsun ama icinde {deep} hissediyorsun" },
   "related": { "emotionTemp": "Duygu Sicakligi", "hspTest": "HSP Testi", "stressCheck": "Stres Kontrolu", "mbtiLove": "MBTI Ask Uyumu" },
   "share": { "title": "Sonuclarini paylas", "copyLink": "Baglanti kopyala", "copied": "Kopyalandi!", "text": "Duygu buzdagi tipim", "cta": "Sen de kesfet!" }
 }

@@ -12,7 +12,16 @@
     "title": "情绪冰山测试",
     "subtitle": "发现你展示给世界的情绪与内心真实感受之间的差距",
     "startDesc": "通过10个场景，分析你的表面情绪和隐藏的内心世界。",
-    "startBtn": "开始测试"
+    "startBtn": "开始测试",
+    "startBtnEnhanced": "发现你隐藏的情绪"
+  },
+  "quiz": {
+    "midEncouragement": "已经过半了！你的冰山正在形成..."
+  },
+  "teasers": {
+    "volcano": { "name": "火山", "desc": "外表平静，内心燃烧" },
+    "aurora": { "name": "极光", "desc": "灿烂微笑，孤独内心" },
+    "coral": { "name": "珊瑚", "desc": "坚硬外壳，柔软内心" }
   },
   "question": {
     "scenario": "场景",
@@ -191,7 +200,8 @@
     "belowLabel": "隐藏的情绪",
     "retry": "再来一次",
     "moreTests": "探索更多",
-    "percentileText": "的参与者与你同类型"
+    "percentileText": "的参与者与你同类型",
+    "narrative": "你展示{surface}，但内心感受{deep}"
   },
   "related": {
     "emotionTemp": "情绪温度测试",

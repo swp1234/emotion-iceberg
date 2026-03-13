@@ -16,7 +16,16 @@
     "title": "Emotion Iceberg Test",
     "subtitle": "Discover what you show the world vs. what you truly feel inside",
     "startDesc": "10 scenarios will reveal the gap between your surface emotions and your hidden depths.",
-    "startBtn": "Dive In"
+    "startBtn": "Dive In",
+    "startBtnEnhanced": "Discover What You're Hiding"
+  },
+  "quiz": {
+    "midEncouragement": "You're halfway there! Your iceberg is forming..."
+  },
+  "teasers": {
+    "volcano": { "name": "Volcano", "desc": "Calm outside, burning inside" },
+    "aurora": { "name": "Aurora", "desc": "Bright smile, lonely heart" },
+    "coral": { "name": "Coral", "desc": "Tough shell, tender heart" }
   },
   "question": {
     "scenario": "Scenario",
@@ -195,7 +204,8 @@
     "belowLabel": "What you hide",
     "retry": "Try Again",
     "moreTests": "Explore More",
-    "percentileText": "of participants share your type"
+    "percentileText": "of participants share your type",
+    "narrative": "You show {surface} but feel {deep} inside"
   },
   "related": {
     "emotionTemp": "Emotion Temperature",

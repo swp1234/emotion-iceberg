@@ -118,9 +118,22 @@
           <p class="time-estimate" data-i18n="meta.timeEstimate">~2 min &bull; 10 scenarios</p>
         </div>
         <div class="card start-card">
-          <div class="result-preview"><span data-i18n="meta.previewText">Popular result:</span> <strong>Volcano Type</strong></div>
+          <div class="type-teasers" id="type-teasers">
+            <div class="type-teaser-item">
+              <span class="type-teaser-emoji">🌋</span>
+              <span><span class="type-teaser-name" data-i18n="teasers.volcano.name">Volcano</span> &mdash; <span class="type-teaser-desc" data-i18n="teasers.volcano.desc">Calm outside, burning inside</span></span>
+            </div>
+            <div class="type-teaser-item">
+              <span class="type-teaser-emoji">🌌</span>
+              <span><span class="type-teaser-name" data-i18n="teasers.aurora.name">Aurora</span> &mdash; <span class="type-teaser-desc" data-i18n="teasers.aurora.desc">Bright smile, lonely heart</span></span>
+            </div>
+            <div class="type-teaser-item">
+              <span class="type-teaser-emoji">🪸</span>
+              <span><span class="type-teaser-name" data-i18n="teasers.coral.name">Coral</span> &mdash; <span class="type-teaser-desc" data-i18n="teasers.coral.desc">Tough shell, tender heart</span></span>
+            </div>
+          </div>
           <p class="start-desc" data-i18n="app.startDesc">10 scenarios will reveal the gap between your surface emotions and your hidden depths.</p>
-          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtn">Dive In</button>
+          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtnEnhanced">Discover What You're Hiding</button>
         </div>
       </section>
 
@@ -130,6 +143,11 @@
           <div class="progress-bar" id="progress-bar"></div>
         </div>
         <div class="question-counter" id="question-counter"></div>
+
+        <!-- Mid-quiz encouragement (shown at Q5) -->
+        <div class="mid-quiz-encouragement" id="mid-quiz-encouragement" style="display:none;">
+          <span data-i18n="quiz.midEncouragement">You're halfway there! Your iceberg is forming...</span>
+        </div>
 
         <!-- Mini iceberg preview -->
         <div class="mini-iceberg-wrap" id="mini-iceberg-wrap">
@@ -195,10 +213,13 @@
           <p id="result-analysis" class="result-analysis"></p>
         </div>
 
+        <!-- Result Narrative -->
+        <div class="result-narrative" id="result-narrative"></div>
+
         <div class="card result-stats-card">
           <div class="stat-row">
             <span class="stat-label-text" data-i18n="result.gapScore">Surface-Depth Gap</span>
-            <span class="stat-value-text" id="gap-score"></span>
+            <span class="stat-value-text" id="gap-score">0%</span>
           </div>
           <div class="gap-bar-wrap">
             <div class="gap-bar" id="gap-bar"></div>
@@ -207,7 +228,7 @@
           <p class="percentile-stat" id="percentile-stat"></p>
         </div>
 
-        <!-- Share Section -->
+        <!-- Share Section (above retry for prominence) -->
         <div class="share-section">
           <h3 data-i18n="share.title">Share Your Results</h3>
           <div class="share-buttons">

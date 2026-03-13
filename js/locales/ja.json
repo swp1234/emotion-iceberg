@@ -12,7 +12,16 @@
     "title": "感情の氷山テスト",
     "subtitle": "あなたが世界に見せる感情と、内に秘めた本当の気持ちの差を発見しましょう",
     "startDesc": "10のシナリオを通じて、あなたの表面の感情と隠された内面を分析します。",
-    "startBtn": "始める"
+    "startBtn": "始める",
+    "startBtnEnhanced": "隠された感情を発見する"
+  },
+  "quiz": {
+    "midEncouragement": "半分まで来ました！あなたの氷山が形成されています..."
+  },
+  "teasers": {
+    "volcano": { "name": "火山", "desc": "外は穏やか、中は燃えている" },
+    "aurora": { "name": "オーロラ", "desc": "明るい笑顔、孤独な心" },
+    "coral": { "name": "珊瑚", "desc": "硬い殻、優しい心" }
   },
   "question": {
     "scenario": "シナリオ",
@@ -191,7 +200,8 @@
     "belowLabel": "隠す感情",
     "retry": "もう一度",
     "moreTests": "もっと探す",
-    "percentileText": "の参加者が同じタイプです"
+    "percentileText": "の参加者が同じタイプです",
+    "narrative": "あなたは{surface}を見せていますが、内心では{deep}を感じています"
   },
   "related": {
     "emotionTemp": "感情温度テスト",

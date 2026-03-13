@@ -12,7 +12,16 @@
     "title": "Teste do Iceberg Emocional",
     "subtitle": "Descubra o que você mostra ao mundo vs. o que realmente sente por dentro",
     "startDesc": "10 cenários vão revelar a diferença entre suas emoções superficiais e suas profundezas ocultas.",
-    "startBtn": "Começar"
+    "startBtn": "Começar",
+    "startBtnEnhanced": "Descubra o que voce esconde"
+  },
+  "quiz": {
+    "midEncouragement": "Voce esta na metade! Seu iceberg esta se formando..."
+  },
+  "teasers": {
+    "volcano": { "name": "Vulcao", "desc": "Calmo por fora, ardente por dentro" },
+    "aurora": { "name": "Aurora", "desc": "Sorriso brilhante, coracao solitario" },
+    "coral": { "name": "Coral", "desc": "Casca dura, coracao terno" }
   },
   "question": {
     "scenario": "Cenário",
@@ -146,7 +155,7 @@
     "crystal": { "name": "Iceberg de Cristal", "desc": "A bela transparência do alinhamento emocional", "analysis": "Suas emoções superficiais e internas estão notavelmente alinhadas. Você expressa o que sente sem esconder. Essa transparência emocional é uma qualidade rara que gera confiança profunda.", "gapDesc": "Alta transparência emocional — superfície e profundidade quase alinhadas" },
     "fog": { "name": "Iceberg de Neblina", "desc": "Em uma jornada para encontrar suas emoções na névoa", "analysis": "Pode ser difícil identificar exatamente o que sente. Tanto na superfície quanto por dentro, suas emoções parecem emaranhadas. Essa é uma fase natural que pode ser o ponto de partida para um autoconhecimento mais profundo.", "gapDesc": "Buscando direção tanto nas emoções superficiais quanto internas" }
   },
-  "result": { "analysisTitle": "Sua profundidade emocional", "aboveLabel": "O que você mostra", "belowLabel": "O que você esconde", "retry": "Tentar novamente", "moreTests": "Explorar mais", "percentileText": "dos participantes compartilham seu tipo" },
+  "result": { "analysisTitle": "Sua profundidade emocional", "aboveLabel": "O que você mostra", "belowLabel": "O que você esconde", "retry": "Tentar novamente", "moreTests": "Explorar mais", "percentileText": "dos participantes compartilham seu tipo", "narrative": "Voce mostra {surface} mas sente {deep} por dentro" },
   "related": { "emotionTemp": "Temperatura Emocional", "hspTest": "Teste HSP", "stressCheck": "Verificacao de Estresse", "mbtiLove": "MBTI Compatibilidade" },
   "share": { "title": "Compartilhe seus resultados", "copyLink": "Copiar link", "copied": "Copiado!", "text": "Meu tipo de iceberg emocional é", "cta": "Descubra o seu!" }
 }

@@ -16,7 +16,16 @@
     "title": "감정 빙산 테스트",
     "subtitle": "당신이 세상에 보여주는 감정과 실제로 느끼는 감정 사이의 간극을 발견하세요",
     "startDesc": "10가지 상황을 통해 당신의 표면 감정과 숨겨진 내면을 분석합니다.",
-    "startBtn": "시작하기"
+    "startBtn": "시작하기",
+    "startBtnEnhanced": "숨겨진 감정 발견하기"
+  },
+  "quiz": {
+    "midEncouragement": "절반을 지났어요! 당신의 빙산이 형성되고 있어요..."
+  },
+  "teasers": {
+    "volcano": { "name": "화산", "desc": "겉은 차분, 속은 불꽃" },
+    "aurora": { "name": "오로라", "desc": "밝은 웃음, 외로운 마음" },
+    "coral": { "name": "산호초", "desc": "단단한 겉, 부드러운 속" }
   },
   "question": {
     "scenario": "상황",
@@ -195,7 +204,8 @@
     "belowLabel": "숨기는 감정",
     "retry": "다시 하기",
     "moreTests": "더 알아보기",
-    "percentileText": "의 참여자가 같은 유형이에요"
+    "percentileText": "의 참여자가 같은 유형이에요",
+    "narrative": "당신은 {surface}을 보여주지만 속으로는 {deep}을 느끼고 있어요"
   },
   "related": {
     "emotionTemp": "감정 온도 테스트",
