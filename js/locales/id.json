@@ -146,6 +146,7 @@
     "crystal": { "name": "Gunung Es Kristal", "desc": "Keindahan transparansi keselarasan emosional", "analysis": "Emosi permukaan dan dalammu selaras secara mengagumkan. Kamu mengekspresikan apa yang kamu rasakan tanpa menyembunyikan. Transparansi emosional ini adalah kualitas langka yang membangun kepercayaan mendalam.", "gapDesc": "Transparansi emosional tinggi — permukaan dan kedalaman hampir selaras" },
     "fog": { "name": "Gunung Es Kabut", "desc": "Dalam perjalanan menemukan emosimu melalui kabut", "analysis": "Kamu mungkin sulit menentukan dengan tepat apa yang kamu rasakan. Baik di permukaan maupun di dalam, emosimu terasa kusut dan tidak jelas. Ini adalah fase alami dan bisa menjadi titik awal penemuan diri yang lebih dalam.", "gapDesc": "Masih mencari arah di emosi permukaan maupun internal" }
   },
-  "result": { "analysisTitle": "Kedalaman Emosionalmu", "aboveLabel": "Yang kamu tunjukkan", "belowLabel": "Yang kamu sembunyikan", "retry": "Coba lagi" },
+  "result": { "analysisTitle": "Kedalaman Emosionalmu", "aboveLabel": "Yang kamu tunjukkan", "belowLabel": "Yang kamu sembunyikan", "retry": "Coba lagi", "moreTests": "Jelajahi Lainnya", "percentileText": "peserta memiliki tipe yang sama" },
+  "related": { "emotionTemp": "Suhu Emosi", "hspTest": "Tes HSP", "stressCheck": "Cek Stres", "mbtiLove": "MBTI Kecocokan Cinta" },
   "share": { "title": "Bagikan Hasilmu", "copyLink": "Salin link", "copied": "Tersalin!", "text": "Tipe gunung es emosiku adalah", "cta": "Temukan milikmu!" }
 }

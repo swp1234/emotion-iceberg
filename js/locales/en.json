@@ -193,7 +193,15 @@
     "analysisTitle": "Your Emotional Depth",
     "aboveLabel": "What you show",
     "belowLabel": "What you hide",
-    "retry": "Try Again"
+    "retry": "Try Again",
+    "moreTests": "Explore More",
+    "percentileText": "of participants share your type"
+  },
+  "related": {
+    "emotionTemp": "Emotion Temperature",
+    "hspTest": "HSP Test",
+    "stressCheck": "Stress Check",
+    "mbtiLove": "MBTI Love Match"
   },
   "share": {
     "title": "Share Your Results",

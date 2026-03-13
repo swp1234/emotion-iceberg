@@ -146,6 +146,7 @@
     "crystal": { "name": "Kristal Buzdagi", "desc": "Duygusal uyumun guzel seffafligi", "analysis": "Yuzey ve ic duygulanin sasiritici olcude uyumlu. Hissettigini saklmadan ifade edersin. Bu duygusal seffaflik nadir bir ozelliktir ve derin guven olusturur.", "gapDesc": "Yuksek duygusal seffaflik — yuzey ve derinlik neredeyse uyumlu" },
     "fog": { "name": "Sis Buzdagi", "desc": "Sisin icinde duygularini bulmak icin bir yolculukta", "analysis": "Tam olarak ne hissettigini belirlemek zor olabilir. Hem yuzyde hem icte duygulanin karisik ve belirsiz. Bu dogal bir evredir ve daha derin bir kesfin baslangci olabilir.", "gapDesc": "Hem yuzey hem ic duygularda yon ariyor" }
   },
-  "result": { "analysisTitle": "Duygusal Derinligin", "aboveLabel": "Gosterdigin", "belowLabel": "Gizledigin", "retry": "Tekrar dene" },
+  "result": { "analysisTitle": "Duygusal Derinligin", "aboveLabel": "Gosterdigin", "belowLabel": "Gizledigin", "retry": "Tekrar dene", "moreTests": "Daha Fazla Kesfet", "percentileText": "katilimci senin tipini paylasiyor" },
+  "related": { "emotionTemp": "Duygu Sicakligi", "hspTest": "HSP Testi", "stressCheck": "Stres Kontrolu", "mbtiLove": "MBTI Ask Uyumu" },
   "share": { "title": "Sonuclarini paylas", "copyLink": "Baglanti kopyala", "copied": "Kopyalandi!", "text": "Duygu buzdagi tipim", "cta": "Sen de kesfet!" }
 }

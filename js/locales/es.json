@@ -146,6 +146,7 @@
     "crystal": { "name": "Iceberg de Cristal", "desc": "La hermosa transparencia de la alineación emocional", "analysis": "Tus emociones superficiales e internas están notablemente alineadas. Expresas lo que sientes sin ocultar nada. Esta transparencia emocional es una cualidad rara que genera una profunda confianza.", "gapDesc": "Alta transparencia emocional — superficie y profundidad casi alineadas" },
     "fog": { "name": "Iceberg de Niebla", "desc": "En un viaje para encontrar tus emociones entre la bruma", "analysis": "Puede que te resulte difícil identificar exactamente lo que sientes. Tanto en la superficie como por dentro, tus emociones se sienten enredadas. Esta es una fase natural y puede ser el punto de partida de un autodescubrimiento más profundo.", "gapDesc": "Buscando dirección tanto en emociones superficiales como internas" }
   },
-  "result": { "analysisTitle": "Tu profundidad emocional", "aboveLabel": "Lo que muestras", "belowLabel": "Lo que ocultas", "retry": "Intentar de nuevo" },
+  "result": { "analysisTitle": "Tu profundidad emocional", "aboveLabel": "Lo que muestras", "belowLabel": "Lo que ocultas", "retry": "Intentar de nuevo", "moreTests": "Explorar mas", "percentileText": "de los participantes comparten tu tipo" },
+  "related": { "emotionTemp": "Temperatura Emocional", "hspTest": "Test HSP", "stressCheck": "Control de Estres", "mbtiLove": "MBTI Compatibilidad" },
   "share": { "title": "Comparte tus resultados", "copyLink": "Copiar enlace", "copied": "¡Copiado!", "text": "Mi tipo de iceberg emocional es", "cta": "¡Descubre el tuyo!" }
 }

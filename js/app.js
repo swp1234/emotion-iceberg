@@ -310,6 +310,14 @@
     }, 300);
     $('gap-desc').textContent = t(`results.${result.type}.gapDesc`, '');
 
+    // Percentile social proof
+    const percentiles = { volcano: 12, aurora: 18, coral: 22, abyss: 8, crystal: 25, fog: 15 };
+    const pct = percentiles[result.type] || 15;
+    const percEl = document.getElementById('percentile-stat');
+    if (percEl) {
+      percEl.innerHTML = `<strong>${pct}%</strong> ${t('result.percentileText', 'of participants share your type')}`;
+    }
+
     // Place emotion tags on result iceberg
     placeResultTags(result);
 

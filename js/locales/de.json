@@ -146,6 +146,7 @@
     "crystal": { "name": "Kristall-Eisberg", "desc": "Die wunderschoene Transparenz emotionaler Uebereinstimmung", "analysis": "Deine Oberflaechenemotionen und inneren Gefuehle stimmen bemerkenswert ueberein. Du drueckst aus, was du fuehlst, ohne etwas zu verbergen. Diese emotionale Transparenz ist eine seltene Qualitaet.", "gapDesc": "Hohe emotionale Transparenz — Oberflaeche und Tiefe fast deckungsgleich" },
     "fog": { "name": "Nebel-Eisberg", "desc": "Auf einer Reise, deine Emotionen im Nebel zu finden", "analysis": "Es mag schwer sein, genau zu bestimmen, was du fuehlst. Sowohl an der Oberflaeche als auch innerlich fuehlen sich deine Emotionen verworren an. Das ist eine natuerliche Phase und kann der Ausgangspunkt tieferer Selbsterkenntnis sein.", "gapDesc": "Suchst noch Richtung sowohl in aeusseren als auch inneren Emotionen" }
   },
-  "result": { "analysisTitle": "Deine emotionale Tiefe", "aboveLabel": "Was du zeigst", "belowLabel": "Was du verbirgst", "retry": "Nochmal versuchen" },
+  "result": { "analysisTitle": "Deine emotionale Tiefe", "aboveLabel": "Was du zeigst", "belowLabel": "Was du verbirgst", "retry": "Nochmal versuchen", "moreTests": "Mehr entdecken", "percentileText": "der Teilnehmer teilen deinen Typ" },
+  "related": { "emotionTemp": "Emotions-Temperatur", "hspTest": "HSP-Test", "stressCheck": "Stress-Check", "mbtiLove": "MBTI Liebes-Match" },
   "share": { "title": "Ergebnisse teilen", "copyLink": "Link kopieren", "copied": "Kopiert!", "text": "Mein Emotions-Eisberg-Typ ist", "cta": "Finde deinen heraus!" }
 }

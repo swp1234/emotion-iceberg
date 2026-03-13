@@ -189,7 +189,15 @@
     "analysisTitle": "你的情感深度",
     "aboveLabel": "展示的情绪",
     "belowLabel": "隐藏的情绪",
-    "retry": "再来一次"
+    "retry": "再来一次",
+    "moreTests": "探索更多",
+    "percentileText": "的参与者与你同类型"
+  },
+  "related": {
+    "emotionTemp": "情绪温度测试",
+    "hspTest": "HSP测试",
+    "stressCheck": "压力检测",
+    "mbtiLove": "MBTI恋爱匹配"
   },
   "share": {
     "title": "分享结果",

@@ -146,6 +146,7 @@
     "crystal": { "name": "Iceberg de Cristal", "desc": "La belle transparence de l'alignement emotionnel", "analysis": "Vos emotions de surface et interieures sont remarquablement alignees. Vous exprimez ce que vous ressentez sans vous cacher. Cette transparence emotionnelle est une qualite rare qui inspire une confiance profonde.", "gapDesc": "Haute transparence emotionnelle — surface et profondeur presque alignees" },
     "fog": { "name": "Iceberg de Brume", "desc": "En voyage pour trouver vos emotions a travers la brume", "analysis": "Vous avez peut-etre du mal a identifier exactement ce que vous ressentez. Tant en surface qu'a l'interieur, vos emotions semblent emmelees. C'est une phase naturelle qui peut etre le point de depart d'une decouverte de soi plus profonde.", "gapDesc": "Cherche encore la direction dans les emotions de surface et interieures" }
   },
-  "result": { "analysisTitle": "Votre profondeur emotionnelle", "aboveLabel": "Ce que vous montrez", "belowLabel": "Ce que vous cachez", "retry": "Reessayer" },
+  "result": { "analysisTitle": "Votre profondeur emotionnelle", "aboveLabel": "Ce que vous montrez", "belowLabel": "Ce que vous cachez", "retry": "Reessayer", "moreTests": "Explorer plus", "percentileText": "des participants partagent votre type" },
+  "related": { "emotionTemp": "Temperature Emotionnelle", "hspTest": "Test HSP", "stressCheck": "Bilan de Stress", "mbtiLove": "MBTI Compatibilite" },
   "share": { "title": "Partagez vos resultats", "copyLink": "Copier le lien", "copied": "Copie !", "text": "Mon type d'iceberg emotionnel est", "cta": "Decouvrez le votre !" }
 }

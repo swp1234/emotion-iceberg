@@ -193,7 +193,15 @@
     "analysisTitle": "당신의 감정 깊이",
     "aboveLabel": "보여주는 감정",
     "belowLabel": "숨기는 감정",
-    "retry": "다시 하기"
+    "retry": "다시 하기",
+    "moreTests": "더 알아보기",
+    "percentileText": "의 참여자가 같은 유형이에요"
+  },
+  "related": {
+    "emotionTemp": "감정 온도 테스트",
+    "hspTest": "HSP 테스트",
+    "stressCheck": "스트레스 체크",
+    "mbtiLove": "MBTI 연애 궁합"
   },
   "share": {
     "title": "결과 공유하기",

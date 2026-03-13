@@ -189,7 +189,15 @@
     "analysisTitle": "あなたの感情の深さ",
     "aboveLabel": "見せる感情",
     "belowLabel": "隠す感情",
-    "retry": "もう一度"
+    "retry": "もう一度",
+    "moreTests": "もっと探す",
+    "percentileText": "の参加者が同じタイプです"
+  },
+  "related": {
+    "emotionTemp": "感情温度テスト",
+    "hspTest": "HSPテスト",
+    "stressCheck": "ストレスチェック",
+    "mbtiLove": "MBTI恋愛相性"
   },
   "share": {
     "title": "結果をシェア",

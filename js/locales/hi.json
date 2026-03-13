@@ -159,7 +159,15 @@
     "analysisTitle": "आपकी भावनात्मक गहराई",
     "aboveLabel": "दिखाई देने वाली भावनाएँ",
     "belowLabel": "छिपी हुई भावनाएँ",
-    "retry": "फिर से करें"
+    "retry": "फिर से करें",
+    "moreTests": "और जानें",
+    "percentileText": "प्रतिभागी आपके जैसे प्रकार के हैं"
+  },
+  "related": {
+    "emotionTemp": "भावना तापमान",
+    "hspTest": "HSP परीक्षण",
+    "stressCheck": "तनाव जांच",
+    "mbtiLove": "MBTI प्रेम मिलान"
   },
   "share": {
     "title": "परिणाम शेयर करें",
