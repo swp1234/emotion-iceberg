@@ -1,15 +1,19 @@
 {
   "meta": {
-    "title": "感情の氷山テスト - DopaBrain",
-    "description": "あなたが世界に見せる感情と、本当に感じている感情を探ってみましょう。感情の氷山テスト!",
+    "title": "無料感情の氷山テスト - DopaBrain",
+    "description": "どんな感情を隠していますか？無料テストで10のシナリオで表面vs隠れた感情を発見！",
     "participants": "12,400人以上が参加",
-    "timeEstimate": "約2分 \u2022 10のシナリオ",
+    "timeEstimate": "約2分 • 10のシナリオ",
     "previewText": "人気の結果："
   },
-  "a11y": { "skipToContent": "本文へスキップ" },
-  "loader": { "loading": "読み込み中..." },
+  "a11y": {
+    "skipToContent": "本文へスキップ"
+  },
+  "loader": {
+    "loading": "読み込み中..."
+  },
   "app": {
-    "title": "感情の氷山テスト",
+    "title": "感情の氷山テスト - 隠れた感情を発見",
     "subtitle": "あなたが世界に見せる感情と、内に秘めた本当の気持ちの差を発見しましょう",
     "startDesc": "10のシナリオを通じて、あなたの表面の感情と隠された内面を分析します。",
     "startBtn": "始める",
@@ -19,9 +23,18 @@
     "midEncouragement": "半分まで来ました！あなたの氷山が形成されています..."
   },
   "teasers": {
-    "volcano": { "name": "火山", "desc": "外は穏やか、中は燃えている" },
-    "aurora": { "name": "オーロラ", "desc": "明るい笑顔、孤独な心" },
-    "coral": { "name": "珊瑚", "desc": "硬い殻、優しい心" }
+    "volcano": {
+      "name": "火山",
+      "desc": "外は穏やか、中は燃えている"
+    },
+    "aurora": {
+      "name": "オーロラ",
+      "desc": "明るい笑顔、孤独な心"
+    },
+    "coral": {
+      "name": "珊瑚",
+      "desc": "硬い殻、優しい心"
+    }
   },
   "question": {
     "scenario": "シナリオ",
@@ -33,113 +46,433 @@
   "questions": {
     "q0": {
       "scenario": "親友があなたを誘わず、他の友人と旅行に行きました。",
-      "surface0": { "text": "「楽しんできてね」とクールに送り出す", "emoji": "😊", "emotion": "calm" },
-      "surface1": { "text": "「いいな！写真たくさん撮ってね」と明るく反応する", "emoji": "😄", "emotion": "cheerful" },
-      "surface2": { "text": "あまり気にしないふりをする", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "「私もそのうち旅行する予定」と堂々と言う", "emoji": "💪", "emotion": "confident" },
-      "deep0": { "text": "なぜ自分だけ外されたのか寂しい", "emoji": "😢", "emotion": "sad" },
-      "deep1": { "text": "一人取り残された気がして孤独", "emoji": "🥺", "emotion": "lonely" },
-      "deep2": { "text": "正直ちょっと腹が立つ", "emoji": "😤", "emotion": "angry" },
-      "deep3": { "text": "本当に気にならない", "emoji": "😌", "emotion": "calm" }
+      "surface0": {
+        "text": "「楽しんできてね」とクールに送り出す",
+        "emoji": "😊",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "「いいな！写真たくさん撮ってね」と明るく反応する",
+        "emoji": "😄",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "あまり気にしないふりをする",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "「私もそのうち旅行する予定」と堂々と言う",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "なぜ自分だけ外されたのか寂しい",
+        "emoji": "😢",
+        "emotion": "sad"
+      },
+      "deep1": {
+        "text": "一人取り残された気がして孤独",
+        "emoji": "🥺",
+        "emotion": "lonely"
+      },
+      "deep2": {
+        "text": "正直ちょっと腹が立つ",
+        "emoji": "😤",
+        "emotion": "angry"
+      },
+      "deep3": {
+        "text": "本当に気にならない",
+        "emoji": "😌",
+        "emotion": "calm"
+      }
     },
     "q1": {
       "scenario": "職場や学校であなたのアイデアが無視されました。",
-      "surface0": { "text": "「そういうこともある」と流す", "emoji": "🙂", "emotion": "calm" },
-      "surface1": { "text": "笑って別のアイデアを提案する", "emoji": "😄", "emotion": "cheerful" },
-      "surface2": { "text": "表情を変えずに黙っている", "emoji": "😶", "emotion": "indifferent" },
-      "surface3": { "text": "「もう一度聞いてください」と自信を持って言う", "emoji": "💪", "emotion": "confident" },
-      "deep0": { "text": "自分の価値が認められない不安", "emoji": "😰", "emotion": "anxious" },
-      "deep1": { "text": "内心怒りが込み上げる", "emoji": "🔥", "emotion": "angry" },
-      "deep2": { "text": "悲しくて自信がなくなる", "emoji": "😞", "emotion": "sad" },
-      "deep3": { "text": "絶対に証明してやるという情熱が湧く", "emoji": "⚡", "emotion": "passionate" }
+      "surface0": {
+        "text": "「そういうこともある」と流す",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "笑って別のアイデアを提案する",
+        "emoji": "😄",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "表情を変えずに黙っている",
+        "emoji": "😶",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "「もう一度聞いてください」と自信を持って言う",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "自分の価値が認められない不安",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep1": {
+        "text": "内心怒りが込み上げる",
+        "emoji": "🔥",
+        "emotion": "angry"
+      },
+      "deep2": {
+        "text": "悲しくて自信がなくなる",
+        "emoji": "😞",
+        "emotion": "sad"
+      },
+      "deep3": {
+        "text": "絶対に証明してやるという情熱が湧く",
+        "emoji": "⚡",
+        "emotion": "passionate"
+      }
     },
     "q2": {
       "scenario": "恋人や大切な人の連絡が最近減っています。",
-      "surface0": { "text": "忙しいのだろうと待つ", "emoji": "🙂", "emotion": "calm" },
-      "surface1": { "text": "「連絡してね」と軽く送る", "emoji": "😄", "emotion": "cheerful" },
-      "surface2": { "text": "自分からも連絡しない", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "自分から連絡して会う約束をする", "emoji": "💪", "emotion": "confident" },
-      "deep0": { "text": "嫌われたのではと不安になる", "emoji": "😰", "emotion": "anxious" },
-      "deep1": { "text": "一人ぼっちのようで寂しい", "emoji": "🥺", "emotion": "lonely" },
-      "deep2": { "text": "なぜこんな扱いをされるのか怒りを感じる", "emoji": "😤", "emotion": "angry" },
-      "deep3": { "text": "相手が心配で会いたい", "emoji": "💗", "emotion": "tender" }
+      "surface0": {
+        "text": "忙しいのだろうと待つ",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "「連絡してね」と軽く送る",
+        "emoji": "😄",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "自分からも連絡しない",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "自分から連絡して会う約束をする",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "嫌われたのではと不安になる",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep1": {
+        "text": "一人ぼっちのようで寂しい",
+        "emoji": "🥺",
+        "emotion": "lonely"
+      },
+      "deep2": {
+        "text": "なぜこんな扱いをされるのか怒りを感じる",
+        "emoji": "😤",
+        "emotion": "angry"
+      },
+      "deep3": {
+        "text": "相手が心配で会いたい",
+        "emoji": "💗",
+        "emotion": "tender"
+      }
     },
     "q3": {
       "scenario": "SNSでみんなが幸せそうな投稿をしています。",
-      "surface0": { "text": "いいねを押してスクロールする", "emoji": "👍", "emotion": "calm" },
-      "surface1": { "text": "お祝いコメントを書く", "emoji": "🎉", "emotion": "cheerful" },
-      "surface2": { "text": "ただスクロールする", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "自分の日常も投稿する", "emoji": "📸", "emotion": "confident" },
-      "deep0": { "text": "自分だけ取り残されている気がして不安", "emoji": "😰", "emotion": "anxious" },
-      "deep1": { "text": "なぜ自分はあうなれないのか悲しい", "emoji": "😢", "emotion": "sad" },
-      "deep2": { "text": "どうせ作り物だろうと冷笑する", "emoji": "😒", "emotion": "angry" },
-      "deep3": { "text": "特に何も思わない", "emoji": "😌", "emotion": "calm" }
+      "surface0": {
+        "text": "いいねを押してスクロールする",
+        "emoji": "👍",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "お祝いコメントを書く",
+        "emoji": "🎉",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "ただスクロールする",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "自分の日常も投稿する",
+        "emoji": "📸",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "自分だけ取り残されている気がして不安",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep1": {
+        "text": "なぜ自分はあうなれないのか悲しい",
+        "emoji": "😢",
+        "emotion": "sad"
+      },
+      "deep2": {
+        "text": "どうせ作り物だろうと冷笑する",
+        "emoji": "😒",
+        "emotion": "angry"
+      },
+      "deep3": {
+        "text": "特に何も思わない",
+        "emoji": "😌",
+        "emotion": "calm"
+      }
     },
     "q4": {
       "scenario": "重要なプレゼンや面接を控えています。",
-      "surface0": { "text": "冷静に準備する", "emoji": "🙂", "emotion": "calm" },
-      "surface1": { "text": "「できる！」と明るく言う", "emoji": "✨", "emotion": "cheerful" },
-      "surface2": { "text": "大したことないように振る舞う", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "完璧にやり遂げる意志を見せる", "emoji": "💪", "emotion": "confident" },
-      "deep0": { "text": "失敗するのが怖い", "emoji": "😨", "emotion": "fearful" },
-      "deep1": { "text": "緊張でお腹がひっくり返りそう", "emoji": "😰", "emotion": "anxious" },
-      "deep2": { "text": "期待とワクワクでいっぱい", "emoji": "🔥", "emotion": "passionate" },
-      "deep3": { "text": "どうなるか分からず混乱している", "emoji": "🌀", "emotion": "confused" }
+      "surface0": {
+        "text": "冷静に準備する",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "「できる！」と明るく言う",
+        "emoji": "✨",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "大したことないように振る舞う",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "完璧にやり遂げる意志を見せる",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "失敗するのが怖い",
+        "emoji": "😨",
+        "emotion": "fearful"
+      },
+      "deep1": {
+        "text": "緊張でお腹がひっくり返りそう",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep2": {
+        "text": "期待とワクワクでいっぱい",
+        "emoji": "🔥",
+        "emotion": "passionate"
+      },
+      "deep3": {
+        "text": "どうなるか分からず混乱している",
+        "emoji": "🌀",
+        "emotion": "confused"
+      }
     },
     "q5": {
       "scenario": "誰かがあなたの外見や性格を皮肉りました。",
-      "surface0": { "text": "笑って流す", "emoji": "😅", "emotion": "cheerful" },
-      "surface1": { "text": "ウィットで返す", "emoji": "😎", "emotion": "confident" },
-      "surface2": { "text": "聞こえないふりをする", "emoji": "😶", "emotion": "indifferent" },
-      "surface3": { "text": "ただ無視する", "emoji": "🙂", "emotion": "calm" },
-      "deep0": { "text": "傷ついて家で泣きそう", "emoji": "😢", "emotion": "sad" },
-      "deep1": { "text": "怒りで体中が熱くなる", "emoji": "🔥", "emotion": "angry" },
-      "deep2": { "text": "本当にそうなのか不安になる", "emoji": "😰", "emotion": "anxious" },
-      "deep3": { "text": "本当に気にならない", "emoji": "😌", "emotion": "calm" }
+      "surface0": {
+        "text": "笑って流す",
+        "emoji": "😅",
+        "emotion": "cheerful"
+      },
+      "surface1": {
+        "text": "ウィットで返す",
+        "emoji": "😎",
+        "emotion": "confident"
+      },
+      "surface2": {
+        "text": "聞こえないふりをする",
+        "emoji": "😶",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "ただ無視する",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "deep0": {
+        "text": "傷ついて家で泣きそう",
+        "emoji": "😢",
+        "emotion": "sad"
+      },
+      "deep1": {
+        "text": "怒りで体中が熱くなる",
+        "emoji": "🔥",
+        "emotion": "angry"
+      },
+      "deep2": {
+        "text": "本当にそうなのか不安になる",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep3": {
+        "text": "本当に気にならない",
+        "emoji": "😌",
+        "emotion": "calm"
+      }
     },
     "q6": {
       "scenario": "大切な人がつらい時期を過ごしています。",
-      "surface0": { "text": "「大丈夫、きっとうまくいくよ」と励ます", "emoji": "🙂", "emotion": "cheerful" },
-      "surface1": { "text": "具体的な助けを提案する", "emoji": "💪", "emotion": "confident" },
-      "surface2": { "text": "静かにそばにいる", "emoji": "😐", "emotion": "calm" },
-      "surface3": { "text": "「時間が解決してくれるよ」と冷静に言う", "emoji": "😶", "emotion": "indifferent" },
-      "deep0": { "text": "一緒に胸が痛くて涙が出る", "emoji": "💗", "emotion": "tender" },
-      "deep1": { "text": "何もできない無力感を感じる", "emoji": "😞", "emotion": "sad" },
-      "deep2": { "text": "その人を苦しめたものに怒りを覚える", "emoji": "😤", "emotion": "angry" },
-      "deep3": { "text": "どうすればいいか分からない", "emoji": "🌀", "emotion": "confused" }
+      "surface0": {
+        "text": "「大丈夫、きっとうまくいくよ」と励ます",
+        "emoji": "🙂",
+        "emotion": "cheerful"
+      },
+      "surface1": {
+        "text": "具体的な助けを提案する",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "surface2": {
+        "text": "静かにそばにいる",
+        "emoji": "😐",
+        "emotion": "calm"
+      },
+      "surface3": {
+        "text": "「時間が解決してくれるよ」と冷静に言う",
+        "emoji": "😶",
+        "emotion": "indifferent"
+      },
+      "deep0": {
+        "text": "一緒に胸が痛くて涙が出る",
+        "emoji": "💗",
+        "emotion": "tender"
+      },
+      "deep1": {
+        "text": "何もできない無力感を感じる",
+        "emoji": "😞",
+        "emotion": "sad"
+      },
+      "deep2": {
+        "text": "その人を苦しめたものに怒りを覚える",
+        "emoji": "😤",
+        "emotion": "angry"
+      },
+      "deep3": {
+        "text": "どうすればいいか分からない",
+        "emoji": "🌀",
+        "emotion": "confused"
+      }
     },
     "q7": {
       "scenario": "久しぶりに一人で過ごす週末です。",
-      "surface0": { "text": "「やっと休める！」と喜ぶ", "emoji": "😄", "emotion": "cheerful" },
-      "surface1": { "text": "いろいろ計画を立てる", "emoji": "💪", "emotion": "confident" },
-      "surface2": { "text": "特に何もしない", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "のんびり休むと言う", "emoji": "🙂", "emotion": "calm" },
-      "deep0": { "text": "誰にも誘われないのが寂しい", "emoji": "🥺", "emotion": "lonely" },
-      "deep1": { "text": "一人の時間が本当に好きで充電される", "emoji": "😌", "emotion": "calm" },
-      "deep2": { "text": "この時間に何をすべきか不安", "emoji": "😰", "emotion": "anxious" },
-      "deep3": { "text": "いろんな感情が混ざって混乱する", "emoji": "🌀", "emotion": "confused" }
+      "surface0": {
+        "text": "「やっと休める！」と喜ぶ",
+        "emoji": "😄",
+        "emotion": "cheerful"
+      },
+      "surface1": {
+        "text": "いろいろ計画を立てる",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "surface2": {
+        "text": "特に何もしない",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "のんびり休むと言う",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "deep0": {
+        "text": "誰にも誘われないのが寂しい",
+        "emoji": "🥺",
+        "emotion": "lonely"
+      },
+      "deep1": {
+        "text": "一人の時間が本当に好きで充電される",
+        "emoji": "😌",
+        "emotion": "calm"
+      },
+      "deep2": {
+        "text": "この時間に何をすべきか不安",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep3": {
+        "text": "いろんな感情が混ざって混乱する",
+        "emoji": "🌀",
+        "emotion": "confused"
+      }
     },
     "q8": {
       "scenario": "大きなミスをして他の人に迷惑をかけてしまいました。",
-      "surface0": { "text": "冷静に謝罪して解決策を探す", "emoji": "🙂", "emotion": "calm" },
-      "surface1": { "text": "「私が解決します！」と積極的に動く", "emoji": "💪", "emotion": "confident" },
-      "surface2": { "text": "大したことないように見せる", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "明るく場の雰囲気を変えようとする", "emoji": "😅", "emotion": "cheerful" },
-      "deep0": { "text": "自責の念で眠れない", "emoji": "😢", "emotion": "sad" },
-      "deep1": { "text": "他人の目が怖い", "emoji": "😨", "emotion": "fearful" },
-      "deep2": { "text": "なぜこんなミスをしたのか自分に怒る", "emoji": "😤", "emotion": "angry" },
-      "deep3": { "text": "どう収拾すればいいか途方に暮れる", "emoji": "🌀", "emotion": "confused" }
+      "surface0": {
+        "text": "冷静に謝罪して解決策を探す",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "「私が解決します！」と積極的に動く",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "surface2": {
+        "text": "大したことないように見せる",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "明るく場の雰囲気を変えようとする",
+        "emoji": "😅",
+        "emotion": "cheerful"
+      },
+      "deep0": {
+        "text": "自責の念で眠れない",
+        "emoji": "😢",
+        "emotion": "sad"
+      },
+      "deep1": {
+        "text": "他人の目が怖い",
+        "emoji": "😨",
+        "emotion": "fearful"
+      },
+      "deep2": {
+        "text": "なぜこんなミスをしたのか自分に怒る",
+        "emoji": "😤",
+        "emotion": "angry"
+      },
+      "deep3": {
+        "text": "どう収拾すればいいか途方に暮れる",
+        "emoji": "🌀",
+        "emotion": "confused"
+      }
     },
     "q9": {
       "scenario": "夢見ていたチャンスが突然やってきました。",
-      "surface0": { "text": "「いいね、やってみる」と落ち着いて反応する", "emoji": "🙂", "emotion": "calm" },
-      "surface1": { "text": "喜んで周りに報告する", "emoji": "🎉", "emotion": "cheerful" },
-      "surface2": { "text": "まず様子を見る態度を取る", "emoji": "😐", "emotion": "indifferent" },
-      "surface3": { "text": "「できる」と自信を見せる", "emoji": "💪", "emotion": "confident" },
-      "deep0": { "text": "自分に資格があるのか不安", "emoji": "😰", "emotion": "anxious" },
-      "deep1": { "text": "胸が高鳴り情熱が燃え上がる", "emoji": "🔥", "emotion": "passionate" },
-      "deep2": { "text": "失敗が怖い", "emoji": "😨", "emotion": "fearful" },
-      "deep3": { "text": "感謝と感動で胸がいっぱい", "emoji": "💗", "emotion": "tender" }
+      "surface0": {
+        "text": "「いいね、やってみる」と落ち着いて反応する",
+        "emoji": "🙂",
+        "emotion": "calm"
+      },
+      "surface1": {
+        "text": "喜んで周りに報告する",
+        "emoji": "🎉",
+        "emotion": "cheerful"
+      },
+      "surface2": {
+        "text": "まず様子を見る態度を取る",
+        "emoji": "😐",
+        "emotion": "indifferent"
+      },
+      "surface3": {
+        "text": "「できる」と自信を見せる",
+        "emoji": "💪",
+        "emotion": "confident"
+      },
+      "deep0": {
+        "text": "自分に資格があるのか不安",
+        "emoji": "😰",
+        "emotion": "anxious"
+      },
+      "deep1": {
+        "text": "胸が高鳴り情熱が燃え上がる",
+        "emoji": "🔥",
+        "emotion": "passionate"
+      },
+      "deep2": {
+        "text": "失敗が怖い",
+        "emoji": "😨",
+        "emotion": "fearful"
+      },
+      "deep3": {
+        "text": "感謝と感動で胸がいっぱい",
+        "emoji": "💗",
+        "emotion": "tender"
+      }
     }
   },
   "emotions": {
@@ -215,5 +548,12 @@
     "copied": "コピーしました！",
     "text": "私の感情の氷山タイプは",
     "cta": "あなたも調べてみて！"
+  },
+  "about": {
+    "toggle": "テストについて",
+    "heading1": "感情の氷山モデルを理解する",
+    "text1": "感情の氷山モデルは、感情体験の大部分が表面の下にあることを示しています。このテストは10の実生活シナリオで表面反応と深層の感情のギャップを明らかにします。",
+    "heading2": "感情認識が重要な理由",
+    "text2": "表面の感情と深い感情のギャップを理解することは、感情知性の鍵です。感情パターンを認識することで、より健全な人間関係を築けます。"
   }
 }

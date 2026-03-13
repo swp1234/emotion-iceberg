@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Emotion Iceberg Test - DopaBrain",
-    "description": "Discover what emotions you show the world vs. what you truly feel inside. Take the Emotion Iceberg Test!",
+    "title": "Free Emotion Iceberg Test Online - DopaBrain",
+    "description": "What emotions do you hide? Take this free Emotion Iceberg Test to discover your surface vs. hidden feelings. 10 scenarios, instant results!",
     "participants": "12,400+ participants",
     "timeEstimate": "~2 min \u2022 10 scenarios",
     "previewText": "Popular result:"
@@ -12,8 +12,15 @@
   "loader": {
     "loading": "Loading..."
   },
+  "about": {
+    "toggle": "About This Test",
+    "heading1": "Understanding the Emotion Iceberg Model",
+    "text1": "The emotion iceberg model illustrates how most of our emotional experience lies beneath the surface. Just like an iceberg, what others see is only a fraction of what we truly feel. This test examines 10 real-life scenarios to reveal the gap between your surface reactions and your hidden emotional depths.",
+    "heading2": "Why Emotional Awareness Matters",
+    "text2": "Understanding the gap between your surface emotions and deep feelings is key to emotional intelligence. By recognizing patterns in how you mask or suppress emotions, you can build healthier relationships, reduce stress, and develop greater self-compassion. Your iceberg type is the first step toward emotional growth."
+  },
   "app": {
-    "title": "Emotion Iceberg Test",
+    "title": "Emotion Iceberg Test - Discover Your Hidden Feelings",
     "subtitle": "Discover what you show the world vs. what you truly feel inside",
     "startDesc": "10 scenarios will reveal the gap between your surface emotions and your hidden depths.",
     "startBtn": "Dive In",
