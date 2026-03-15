@@ -117,12 +117,12 @@ body {
 /* Hero */
 .hero {
   text-align: center;
-  padding: 40px 0 24px;
+  padding: 24px 0 16px;
 }
 .iceberg-hero-icon {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 16px;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 12px;
   animation: icebergPulse 3s ease-in-out infinite;
 }
 .hero-iceberg-svg {
@@ -237,8 +237,17 @@ body {
 }
 .start-desc {
   color: var(--text-muted);
-  margin-bottom: 20px;
-  font-size: 0.95rem;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+/* CTA pulse attention */
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(46, 134, 171, 0.5); }
+  50% { box-shadow: 0 0 0 12px rgba(46, 134, 171, 0); }
+}
+#start-btn {
+  animation: ctaPulse 2s ease-in-out 1s 3;
 }
 
 /* Buttons */
@@ -648,10 +657,28 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Hide teasers on mobile to surface CTA immediately */
+/* Mobile compact hero to surface CTA above fold */
 @media (max-width: 640px) {
   .type-teasers {
     display: none;
+  }
+  .hero {
+    padding: 16px 0 8px;
+  }
+  .iceberg-hero-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  .start-card {
+    padding-top: 0;
   }
 }
 
