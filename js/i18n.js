@@ -13,10 +13,19 @@
       async init() {
         try {
           const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
-          const saved = localStorage.getItem('preferred-lang');
-          this.currentLang = saved && SUPPORTED_LANGS.includes(saved) ? saved
+          let urlLang = '';
+          let saved = '';
+          try {
+            urlLang = new URLSearchParams(window.location.search).get('lang') || '';
+          } catch (e) {}
+          try {
+            saved = localStorage.getItem('preferred-lang') || '';
+          } catch (e) {}
+          this.currentLang = urlLang && SUPPORTED_LANGS.includes(urlLang) ? urlLang
+            : saved && SUPPORTED_LANGS.includes(saved) ? saved
             : SUPPORTED_LANGS.includes(browserLang) ? browserLang
             : DEFAULT_LANG;
+          document.documentElement.lang = this.currentLang;
           await this.loadTranslations(this.currentLang);
           this.applyTranslations();
           this.initialized = true;
@@ -51,6 +60,7 @@
       },
 
       applyTranslations() {
+        document.documentElement.lang = this.currentLang;
         document.querySelectorAll('[data-i18n]').forEach(el => {
           const key = el.getAttribute('data-i18n');
           const text = this.t(key);
@@ -69,7 +79,8 @@
       async switchLang(lang) {
         if (!SUPPORTED_LANGS.includes(lang)) return;
         this.currentLang = lang;
-        localStorage.setItem('preferred-lang', lang);
+        document.documentElement.lang = lang;
+        try { localStorage.setItem('preferred-lang', lang); } catch (e) {}
         await this.loadTranslations(lang);
         this.applyTranslations();
         document.documentElement.lang = lang;
