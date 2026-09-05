@@ -39,7 +39,7 @@
 
       async loadTranslations(lang) {
         try {
-          const res = await fetch(`js/locales/${lang}.json`);
+          const res = await fetch(`js/locales/${lang}.json?v=20260905-1`);
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           this.translations = await res.json();
         } catch (e) {

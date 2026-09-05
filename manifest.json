@@ -1,7 +1,9 @@
 {
-  "name": "Emotion Iceberg Test",
-  "short_name": "Emotion Iceberg",
+  "name": "Emotion Iceberg Reflection",
+  "short_name": "Emotion Reflection",
+  "description": "A ten-scenario reflection comparing selected outward responses and inner feeling words.",
   "start_url": "/emotion-iceberg/",
+  "scope": "/emotion-iceberg/",
   "display": "standalone",
   "background_color": "#0a0a1a",
   "theme_color": "#2E86AB",

@@ -1,10 +1,8 @@
 {
   "meta": {
-    "title": "Kostenloser Emotions-Eisberg-Test - DopaBrain",
-    "description": "Welche Emotionen verbergen Sie? Kostenloser Test mit 10 Szenarien!",
-    "participants": "12.400+ Teilnehmer",
-    "timeEstimate": "~2 Min • 10 Szenarien",
-    "previewText": "Beliebtes Ergebnis:"
+    "title": "Emotions-Eisberg-Reflexion",
+    "description": "Vergleiche äußere Reaktionen und innere Gefühlswörter in zehn Alltagssituationen.",
+    "timeEstimate": "~3 Min. • 10 Situationen • 20 Wahlen"
   },
   "a11y": {
     "skipToContent": "Zum Inhalt springen"
@@ -13,35 +11,20 @@
     "loading": "Laden..."
   },
   "app": {
-    "title": "Emotions-Eisberg-Test - Verborgene Gefühle entdecken",
-    "subtitle": "Entdecke, was du der Welt zeigst vs. was du wirklich fuehlst",
-    "startDesc": "10 Szenarien enthuellen die Kluft zwischen deinen Oberflaechenemotionen und verborgenen Tiefen.",
-    "startBtn": "Eintauchen",
-    "startBtnEnhanced": "Entdecke, was du verbirgst"
-  },
-  "quiz": {
-    "midEncouragement": "Du bist auf halbem Weg! Dein Eisberg formt sich..."
-  },
-  "teasers": {
-    "volcano": {
-      "name": "Vulkan",
-      "desc": "Aussen ruhig, innen brennend"
-    },
-    "aurora": {
-      "name": "Aurora",
-      "desc": "Strahlendes Laecheln, einsames Herz"
-    },
-    "coral": {
-      "name": "Koralle",
-      "desc": "Harte Schale, weiches Herz"
-    }
+    "title": "Emotions-Eisberg-Reflexion",
+    "subtitle": "Vergleiche deine sichtbaren Reaktionen mit den gewählten inneren Gefühlswörtern.",
+    "startBtnEnhanced": "Reflexion starten",
+    "method": "Methode: Pro Situation wählst du eine äußere Reaktion und ein inneres Gefühlswort. Beide Listen werden getrennt gezählt; bei Gleichstand gilt die veröffentlichte Reihenfolge.",
+    "rule": "Die Metapher folgt nur dem häufigsten inneren Wort: Ärger/Leidenschaft, Einsamkeit/Traurigkeit, Zärtlichkeit/Angst, Furcht, Verwirrung oder Ruhe.",
+    "boundary": "Diese gestaltete Reflexion deckt keine verborgenen Gefühle auf und ist weder Diagnose noch validierter psychologischer Test.",
+    "source": "Hintergrund: Studie zum Benennen von Gefühlen; sie validiert diese Reflexion nicht"
   },
   "question": {
     "scenario": "Szenario",
-    "surfaceStep": "Oberflaechen-Reaktion",
-    "deepStep": "Verborgenes Gefuehl",
-    "surfaceQ": "Wie reagierst du nach aussen?",
-    "deepQ": "Was fuehlst du wirklich innerlich?"
+    "surfaceStep": "Äußere Reaktion",
+    "deepStep": "Inneres Wort",
+    "surfaceQ": "Welche Reaktion würdest du am ehesten zeigen?",
+    "deepQ": "Welches Gefühlswort würdest du für dich wählen?"
   },
   "questions": {
     "q0": {
@@ -492,68 +475,45 @@
   "results": {
     "volcano": {
       "name": "Vulkan-Eisberg",
-      "desc": "Ruhig an der Oberflaeche, aber gluehende Lava fliesst darunter",
-      "analysis": "Du wirkst gelassen und unerschuetterlich, aber in deinem Inneren brodeln intensive Emotionen — Wut, Leidenschaft, Frustration. Du bist Meister im Unterdruecken starker Gefuehle, aber sie koennen unerwartet ausbrechen.",
-      "gapDesc": "Grosse Kluft zwischen aeusserer Ruhe und innerer Intensitaet"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     },
     "aurora": {
       "name": "Aurora-Eisberg",
-      "desc": "Hinter dem strahlenden Laecheln ein einsames Leuchten",
-      "analysis": "Du strahlst positive Energie aus und hebst die Stimmung aller, aber allein taucht tiefe Einsamkeit oder Traurigkeit auf. Deine Helligkeit ist echt, aber vergiss nicht, die verborgenen Gefuehle dahinter zu pflegen.",
-      "gapDesc": "Unter der hellen Oberflaeche liegt unsichtbare Einsamkeit"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     },
     "coral": {
       "name": "Korallen-Eisberg",
-      "desc": "Ein zartes Herz lebt unter dem harten Aeusseren",
-      "analysis": "Du projizierst Staerke und Selbstvertrauen, aber darunter bist du zutiefst empathisch und sensibel. Du sorgst dich um andere mehr als du zeigst.",
-      "gapDesc": "Zarte Sensibilitaet verbirgt sich hinter der starken Fassade"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     },
     "abyss": {
       "name": "Tiefsee-Eisberg",
-      "desc": "Ein Ozean tiefer, komplexer Emotionen unter der gleichgueltigen Oberflaeche",
-      "analysis": "Von aussen wirkst du emotional distanziert, besitzt aber eine der reichsten Gefuehlswelten. Du empfindest Traurigkeit, Angst und Einsamkeit zutiefst, ohne an der Oberflaeche etwas zu zeigen.",
-      "gapDesc": "Riesige Kluft zwischen gleichgueltiger Oberflaeche und tiefen inneren Emotionen"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     },
     "crystal": {
       "name": "Kristall-Eisberg",
-      "desc": "Die wunderschoene Transparenz emotionaler Uebereinstimmung",
-      "analysis": "Deine Oberflaechenemotionen und inneren Gefuehle stimmen bemerkenswert ueberein. Du drueckst aus, was du fuehlst, ohne etwas zu verbergen. Diese emotionale Transparenz ist eine seltene Qualitaet.",
-      "gapDesc": "Hohe emotionale Transparenz — Oberflaeche und Tiefe fast deckungsgleich"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     },
     "fog": {
       "name": "Nebel-Eisberg",
-      "desc": "Auf einer Reise, deine Emotionen im Nebel zu finden",
-      "analysis": "Es mag schwer sein, genau zu bestimmen, was du fuehlst. Sowohl an der Oberflaeche als auch innerlich fuehlen sich deine Emotionen verworren an. Das ist eine natuerliche Phase und kann der Ausgangspunkt tieferer Selbsterkenntnis sein.",
-      "gapDesc": "Suchst noch Richtung sowohl in aeusseren als auch inneren Emotionen"
+      "desc": "Diese Metapher ist deinem häufigsten inneren Wort zugeordnet."
     }
   },
   "result": {
-    "analysisTitle": "Deine emotionale Tiefe",
-    "aboveLabel": "Was du zeigst",
-    "belowLabel": "Was du verbirgst",
-    "retry": "Nochmal versuchen",
-    "moreTests": "Mehr entdecken",
-    "percentileText": "der Teilnehmer teilen deinen Typ",
-    "narrative": "Du zeigst {surface}, aber fuehlst {deep} im Inneren"
-  },
-  "related": {
-    "emotionTemp": "Emotions-Temperatur",
-    "hspTest": "HSP-Test",
-    "stressCheck": "Stress-Check",
-    "mbtiLove": "MBTI Liebes-Match"
+    "kicker": "Muster deiner Wortwahl",
+    "boundary": "Die Metapher fasst nur deine Auswahl zusammen; sie deckt nichts Verborgenes auf, misst keine Gesundheit und vergleicht dich nicht.",
+    "aboveLabel": "Äußere Auswahl",
+    "belowLabel": "Innere Wörter",
+    "retry": "Erneut reflektieren",
+    "nextTitle": "Wähle einen praktischen nächsten Schritt",
+    "plannerAction": "Jetzt-Nächstes-Später-Karte erstellen",
+    "stressAction": "Aktuelle Stresssignale prüfen",
+    "narrative": "Häufigstes äußeres Wort: {surface}. Häufigstes inneres Wort: {deep}."
   },
   "share": {
-    "title": "Ergebnisse teilen",
-    "copyLink": "Link kopieren",
-    "copied": "Kopiert!",
-    "text": "Mein Emotions-Eisberg-Typ ist",
-    "cta": "Finde deinen heraus!"
-  },
-  "about": {
-    "toggle": "Über diesen Test",
-    "heading1": "Das Emotions-Eisberg-Modell",
-    "text1": "Das Emotions-Eisberg-Modell zeigt, dass der größte Teil unserer emotionalen Erfahrung unter der Oberfläche liegt. Dieser Test untersucht 10 reale Szenarien.",
-    "heading2": "Warum emotionales Bewusstsein wichtig ist",
-    "text2": "Die Lücke zwischen Oberflächenemotionen und tiefen Gefühlen zu verstehen, ist der Schlüssel zur emotionalen Intelligenz."
+    "title": "Reflexion teilen",
+    "button": "Neutralen Link teilen",
+    "text": "Probiere diese Reflexion mit zehn Situationen.",
+    "success": "Link kopiert.",
+    "unavailable": "Teilen ist nicht verfügbar."
   }
 }

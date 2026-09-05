@@ -1,10 +1,8 @@
 {
   "meta": {
-    "title": "Test Iceberg Émotionnel Gratuit - DopaBrain",
-    "description": "Quelles émotions cachez-vous ? Test gratuit avec 10 scénarios. Découvrez vos sentiments cachés !",
-    "participants": "12 400+ participants",
-    "timeEstimate": "~2 min • 10 scenarios",
-    "previewText": "Resultat populaire :"
+    "title": "Réflexion de l’iceberg émotionnel",
+    "description": "Comparez vos réactions extérieures et vos mots émotionnels intérieurs dans dix situations.",
+    "timeEstimate": "~3 min • 10 situations • 20 choix"
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
@@ -13,35 +11,20 @@
     "loading": "Chargement..."
   },
   "app": {
-    "title": "Test Iceberg Émotionnel - Découvrez vos sentiments",
-    "subtitle": "Decouvrez ce que vous montrez au monde vs. ce que vous ressentez vraiment",
-    "startDesc": "10 scenarios reveleront l'ecart entre vos emotions de surface et vos profondeurs cachees.",
-    "startBtn": "Commencer",
-    "startBtnEnhanced": "Decouvrez ce que vous cachez"
-  },
-  "quiz": {
-    "midEncouragement": "Vous etes a mi-chemin ! Votre iceberg se forme..."
-  },
-  "teasers": {
-    "volcano": {
-      "name": "Volcan",
-      "desc": "Calme dehors, brulant dedans"
-    },
-    "aurora": {
-      "name": "Aurore",
-      "desc": "Sourire lumineux, coeur solitaire"
-    },
-    "coral": {
-      "name": "Corail",
-      "desc": "Coquille dure, coeur tendre"
-    }
+    "title": "Réflexion de l’iceberg émotionnel",
+    "subtitle": "Comparez les réactions visibles et les mots émotionnels intérieurs que vous choisissez.",
+    "startBtnEnhanced": "Commencer la réflexion",
+    "method": "Méthode : chaque situation demande une réaction extérieure et un mot émotionnel intérieur. Les listes sont comptées séparément ; les égalités suivent l’ordre publié.",
+    "rule": "La métaphore dépend uniquement du mot intérieur le plus fréquent : colère/passion, solitude/tristesse, tendresse/anxiété, peur, confusion ou calme.",
+    "boundary": "Cette réflexion créée ne révèle pas d’émotions cachées et n’est ni un diagnostic ni une évaluation psychologique validée.",
+    "source": "Contexte : étude sur l’étiquetage affectif ; elle ne valide pas cette réflexion"
   },
   "question": {
     "scenario": "Scenario",
-    "surfaceStep": "Reaction de surface",
-    "deepStep": "Sentiment cache",
-    "surfaceQ": "Comment reagissez-vous exterieurement ?",
-    "deepQ": "Que ressentez-vous vraiment interieurement ?"
+    "surfaceStep": "Réaction extérieure",
+    "deepStep": "Mot intérieur",
+    "surfaceQ": "Quelle réaction montreriez-vous probablement ?",
+    "deepQ": "Quel mot émotionnel choisiriez-vous pour vous ?"
   },
   "questions": {
     "q0": {
@@ -492,68 +475,45 @@
   "results": {
     "volcano": {
       "name": "Iceberg Volcanique",
-      "desc": "Calme en surface, mais de la lave brulante coule a l'interieur",
-      "analysis": "Vous paraissez calme et inebranlable, mais des emotions intenses — colere, passion, frustration — bouillonnent en vous. Vous excellez a reprimer les sentiments forts, mais ils peuvent exploser de facon inattendue.",
-      "gapDesc": "Grand ecart entre le calme de surface et l'intensite interieure"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     },
     "aurora": {
       "name": "Iceberg Aurore",
-      "desc": "Derriere le sourire lumineux, une lueur solitaire",
-      "analysis": "Vous rayonnez d'energie positive et remontez le moral de tous, mais seul, une profonde solitude ou tristesse emerge. Votre eclat est authentique, mais n'oubliez pas de prendre soin des emotions cachees derriere.",
-      "gapDesc": "Sous la surface brillante se cache une solitude invisible"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     },
     "coral": {
       "name": "Iceberg de Corail",
-      "desc": "Un coeur tendre vit sous l'exterieur dur",
-      "analysis": "Vous projetez force et assurance, mais dessous vous etes profondement empathique et sensible. Vous vous inquietez pour les autres plus que vous ne le montrez.",
-      "gapDesc": "Une sensibilite delicate se cache sous la facade solide"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     },
     "abyss": {
       "name": "Iceberg des Abysses",
-      "desc": "Un ocean d'emotions profondes sous la surface indifferente",
-      "analysis": "De l'exterieur, vous semblez emotionnellement detache, mais vous possedez l'un des mondes emotionnels les plus riches. Vous ressentez la tristesse, la peur et la solitude profondement sans rien montrer en surface.",
-      "gapDesc": "Immense ecart entre la surface indifferente et les emotions profondes"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     },
     "crystal": {
       "name": "Iceberg de Cristal",
-      "desc": "La belle transparence de l'alignement emotionnel",
-      "analysis": "Vos emotions de surface et interieures sont remarquablement alignees. Vous exprimez ce que vous ressentez sans vous cacher. Cette transparence emotionnelle est une qualite rare qui inspire une confiance profonde.",
-      "gapDesc": "Haute transparence emotionnelle — surface et profondeur presque alignees"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     },
     "fog": {
       "name": "Iceberg de Brume",
-      "desc": "En voyage pour trouver vos emotions a travers la brume",
-      "analysis": "Vous avez peut-etre du mal a identifier exactement ce que vous ressentez. Tant en surface qu'a l'interieur, vos emotions semblent emmelees. C'est une phase naturelle qui peut etre le point de depart d'une decouverte de soi plus profonde.",
-      "gapDesc": "Cherche encore la direction dans les emotions de surface et interieures"
+      "desc": "Cette métaphore correspond au mot intérieur le plus souvent choisi."
     }
   },
   "result": {
-    "analysisTitle": "Votre profondeur emotionnelle",
-    "aboveLabel": "Ce que vous montrez",
-    "belowLabel": "Ce que vous cachez",
-    "retry": "Reessayer",
-    "moreTests": "Explorer plus",
-    "percentileText": "des participants partagent votre type",
-    "narrative": "Vous montrez {surface} mais ressentez {deep} a l'interieur"
-  },
-  "related": {
-    "emotionTemp": "Temperature Emotionnelle",
-    "hspTest": "Test HSP",
-    "stressCheck": "Bilan de Stress",
-    "mbtiLove": "MBTI Compatibilite"
+    "kicker": "Votre motif de mots choisis",
+    "boundary": "Cette métaphore résume vos choix ; elle ne révèle rien de caché, ne mesure pas la santé émotionnelle et ne vous compare pas.",
+    "aboveLabel": "Choix extérieurs",
+    "belowLabel": "Mots intérieurs",
+    "retry": "Réfléchir à nouveau",
+    "nextTitle": "Choisissez une prochaine étape pratique",
+    "plannerAction": "Créer une carte maintenant-ensuite-plus tard",
+    "stressAction": "Vérifier les signes actuels de stress",
+    "narrative": "Mot extérieur le plus choisi : {surface}. Mot intérieur le plus choisi : {deep}."
   },
   "share": {
-    "title": "Partagez vos resultats",
-    "copyLink": "Copier le lien",
-    "copied": "Copie !",
-    "text": "Mon type d'iceberg emotionnel est",
-    "cta": "Decouvrez le votre !"
-  },
-  "about": {
-    "toggle": "À propos du test",
-    "heading1": "Le modèle de l'iceberg émotionnel",
-    "text1": "Le modèle de l'iceberg émotionnel montre que la plupart de notre expérience émotionnelle se trouve sous la surface. Ce test examine 10 scénarios réels.",
-    "heading2": "Pourquoi la conscience émotionnelle compte",
-    "text2": "Comprendre l'écart entre vos émotions de surface et vos sentiments profonds est la clé de l'intelligence émotionnelle."
+    "title": "Partager la réflexion",
+    "button": "Partager un lien neutre",
+    "text": "Essayez cette réflexion en dix situations.",
+    "success": "Lien copié.",
+    "unavailable": "Partage indisponible."
   }
 }

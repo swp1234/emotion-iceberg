@@ -1,10 +1,8 @@
 {
   "meta": {
-    "title": "Ücretsiz Duygusal Buzdagı Testi - DopaBrain",
-    "description": "Hangi duyguları gizliyorsunuz? 10 senaryolu ücretsiz test!",
-    "participants": "12.400+ katilimci",
-    "timeEstimate": "~2 dk • 10 senaryo",
-    "previewText": "Populer sonuc:"
+    "title": "Duygu Buzdağı Yansıtması",
+    "description": "On günlük durumda seçtiğiniz dış tepki ve iç duygu sözcüklerini karşılaştırın.",
+    "timeEstimate": "~3 dk • 10 durum • 20 seçim"
   },
   "a11y": {
     "skipToContent": "Icerige atla"
@@ -13,35 +11,20 @@
     "loading": "Yukleniyor..."
   },
   "app": {
-    "title": "Duygusal Buzdagi Testi - Gizli Duyguları Keşfedin",
-    "subtitle": "Dunyaya gosterdigin duygular ile icinde gercekten hissettiklerin arasindaki farki kesfet",
-    "startDesc": "10 senaryo, yuzey duygularin ile gizli derinliklerin arasindaki ucurumu ortaya cikaracak.",
-    "startBtn": "Basla",
-    "startBtnEnhanced": "Neleri gizledigini kesfet"
-  },
-  "quiz": {
-    "midEncouragement": "Yarisina geldin! Buzdagin sekilleniyor..."
-  },
-  "teasers": {
-    "volcano": {
-      "name": "Yanardagi",
-      "desc": "Dista sakin, icte yangin"
-    },
-    "aurora": {
-      "name": "Kutup Isigi",
-      "desc": "Parlak gulumseme, yalniz kalp"
-    },
-    "coral": {
-      "name": "Mercan",
-      "desc": "Sert kabuk, yumusak kalp"
-    }
+    "title": "Duygu Buzdağı Yansıtması",
+    "subtitle": "Görünür tepkilerinizle seçtiğiniz iç duygu sözcüklerini karşılaştırın.",
+    "startBtnEnhanced": "Yansıtmayı başlat",
+    "method": "Yöntem: her durumda bir dış tepki ve bir iç duygu sözcüğü seçilir. İki liste ayrı sayılır; eşitlikte yayımlanan sözcük sırası kullanılır.",
+    "rule": "Metafor yalnızca en sık seçilen iç sözcüğe göre belirlenir: öfke/tutku, yalnızlık/üzüntü, şefkat/kaygı, korku, kafa karışıklığı veya sakinlik.",
+    "boundary": "Bu kurgusal yansıtma gizli duyguları ortaya çıkarmaz; tanı veya doğrulanmış psikolojik değerlendirme değildir.",
+    "source": "Arka plan: duyguyu adlandırma çalışması; bu yansıtmayı doğrulamaz"
   },
   "question": {
     "scenario": "Senaryo",
-    "surfaceStep": "Yuzey Tepki",
-    "deepStep": "Gizli Duygu",
-    "surfaceQ": "Disaridan nasil tepki verirsin?",
-    "deepQ": "Icinden gercekten ne hissedersin?"
+    "surfaceStep": "Dış tepki",
+    "deepStep": "İç sözcük",
+    "surfaceQ": "En çok hangi tepkiyi gösterirdiniz?",
+    "deepQ": "Kendiniz için hangi duygu sözcüğünü seçerdiniz?"
   },
   "questions": {
     "q0": {
@@ -492,68 +475,45 @@
   "results": {
     "volcano": {
       "name": "Yanardagi Buzdagi",
-      "desc": "Yuzey sakin ama icinde lav akiyor",
-      "analysis": "Disaridan sakin ve sarsimaz gorunursun ama icinde siddetli duygular — ofke, tutku, hayal kiriklig — kaynyor. Guclu duygulari bastirmakta ustasn ama beklenmedik anda patlayabilirler.",
-      "gapDesc": "Yuzey sakinligi ile ic yogunluk arasinda buyuk ucurum"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     },
     "aurora": {
       "name": "Kutup Isigi Buzdagi",
-      "desc": "Parlak gulumsemenin ardinda yalniz bir isik",
-      "analysis": "Pozitif enerji yayar ve herkesin moralini yukseltirsin ama yalniz kalinca derin bir yalnizlik veya huzun yuzey cikar. Parlaklgn gercek ama arkasinda gizlenen duygulari da gozetmeyi unutma.",
-      "gapDesc": "Parlak yuzeyin altinda gorunmeyen bir yalnizlik var"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     },
     "coral": {
       "name": "Mercan Buzdagi",
-      "desc": "Sert disin altinda yumusak bir kalp yasiyor",
-      "analysis": "Guc ve ozguven yansitrsin ama altinda derince empatik ve hassassin. Baskalarina gosteridiginden daha fazla endiselenirsin.",
-      "gapDesc": "Guclu cephenin altinda nazik hassasiyet gizli"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     },
     "abyss": {
       "name": "Derin Deniz Buzdagi",
-      "desc": "Kayitsiz yuzeyin altinda derin ve karmasik duygular okyanusu",
-      "analysis": "Disaridan duygusal olarak mesafeli gorunursun ama aslinda en zengin duygusal dunyalardan birine sahipsin. Huzun, korku ve yalnizligi derinden hisseder ama yuzde hicbir sey gostermezsin.",
-      "gapDesc": "Kayitsiz yuzey ile derin ic duygular arasinda muazzam ucurum"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     },
     "crystal": {
       "name": "Kristal Buzdagi",
-      "desc": "Duygusal uyumun guzel seffafligi",
-      "analysis": "Yuzey ve ic duygulanin sasiritici olcude uyumlu. Hissettigini saklmadan ifade edersin. Bu duygusal seffaflik nadir bir ozelliktir ve derin guven olusturur.",
-      "gapDesc": "Yuksek duygusal seffaflik — yuzey ve derinlik neredeyse uyumlu"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     },
     "fog": {
       "name": "Sis Buzdagi",
-      "desc": "Sisin icinde duygularini bulmak icin bir yolculukta",
-      "analysis": "Tam olarak ne hissettigini belirlemek zor olabilir. Hem yuzyde hem icte duygulanin karisik ve belirsiz. Bu dogal bir evredir ve daha derin bir kesfin baslangci olabilir.",
-      "gapDesc": "Hem yuzey hem ic duygularda yon ariyor"
+      "desc": "Bu metafor en sık seçtiğiniz iç sözcükten eşlenir."
     }
   },
   "result": {
-    "analysisTitle": "Duygusal Derinligin",
-    "aboveLabel": "Gosterdigin",
-    "belowLabel": "Gizledigin",
-    "retry": "Tekrar dene",
-    "moreTests": "Daha Fazla Kesfet",
-    "percentileText": "katilimci senin tipini paylasiyor",
-    "narrative": "{surface} gosteriyorsun ama icinde {deep} hissediyorsun"
-  },
-  "related": {
-    "emotionTemp": "Duygu Sicakligi",
-    "hspTest": "HSP Testi",
-    "stressCheck": "Stres Kontrolu",
-    "mbtiLove": "MBTI Ask Uyumu"
+    "kicker": "Seçtiğiniz sözcük düzeni",
+    "boundary": "Bu metafor yalnızca seçimlerinizi özetler; gizli duyguları açığa çıkarmaz, sağlığı ölçmez veya sizi başkalarıyla karşılaştırmaz.",
+    "aboveLabel": "Dış seçimler",
+    "belowLabel": "İç sözcükler",
+    "retry": "Yeniden yansıt",
+    "nextTitle": "Pratik bir sonraki adım seçin",
+    "plannerAction": "Şimdi-sonra-daha sonra kartı oluştur",
+    "stressAction": "Mevcut stres sinyallerini kontrol et",
+    "narrative": "En sık dış sözcük: {surface}. En sık iç sözcük: {deep}."
   },
   "share": {
-    "title": "Sonuclarini paylas",
-    "copyLink": "Baglanti kopyala",
-    "copied": "Kopyalandi!",
-    "text": "Duygu buzdagi tipim",
-    "cta": "Sen de kesfet!"
-  },
-  "about": {
-    "toggle": "Test hakkında",
-    "heading1": "Duygusal buzdagi modeli",
-    "text1": "Duygusal buzdagi modeli, duygusal deneyimimizin çogunun yüzeyin altında oldugunu gösterir. Bu test 10 gerçek yaşam senaryosunu inceler.",
-    "heading2": "Duygusal farkındalık neden önemli",
-    "text2": "Yüzey duyguları ile derin duygular arasındaki açıgı anlamak, duygusal zekanın anahtarıdır."
+    "title": "Yansıtmayı paylaş",
+    "button": "Nötr bağlantıyı paylaş",
+    "text": "Bu on durumluk duygu sözcüğü yansıtmasını deneyin.",
+    "success": "Bağlantı kopyalandı.",
+    "unavailable": "Paylaşım kullanılamıyor."
   }
 }
