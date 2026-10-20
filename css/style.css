@@ -47,6 +47,10 @@ body {
   top: -100%;
   left: 50%;
   transform: translateX(-50%);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
   background: var(--primary);
   color: #fff;
   padding: 8px 16px;
@@ -209,6 +213,11 @@ body {
   color: var(--primary-light);
   font-size: 0.82rem;
   line-height: 1.45;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 4px 0;
 }
 
 /* CTA pulse attention */
