@@ -507,7 +507,9 @@
     "nextTitle": "Choisissez une prochaine étape pratique",
     "plannerAction": "Créer une carte maintenant-ensuite-plus tard",
     "stressAction": "Vérifier les signes actuels de stress",
-    "narrative": "Mot extérieur le plus choisi : {surface}. Mot intérieur le plus choisi : {deep}."
+    "narrative": "Mot extérieur le plus choisi : {surface}. Mot intérieur le plus choisi : {deep}.",
+    "attachmentAction": "Style d'attachement",
+    "hspAction": "Test de sensibilité HSP"
   },
   "share": {
     "title": "Partager la réflexion",

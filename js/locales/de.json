@@ -507,7 +507,9 @@
     "nextTitle": "Wähle einen praktischen nächsten Schritt",
     "plannerAction": "Jetzt-Nächstes-Später-Karte erstellen",
     "stressAction": "Aktuelle Stresssignale prüfen",
-    "narrative": "Häufigstes äußeres Wort: {surface}. Häufigstes inneres Wort: {deep}."
+    "narrative": "Häufigstes äußeres Wort: {surface}. Häufigstes inneres Wort: {deep}.",
+    "attachmentAction": "Bindungsstil-Test",
+    "hspAction": "HSP-Sensibilitätstest"
   },
   "share": {
     "title": "Reflexion teilen",

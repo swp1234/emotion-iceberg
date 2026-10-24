@@ -507,7 +507,9 @@
     "nextTitle": "実用的な次の一歩を選ぶ",
     "plannerAction": "今・次・後の行動カードを作る",
     "stressAction": "現在のストレスサインを確認",
-    "narrative": "最も多い外向きの語：{surface}。最も多い内面語：{deep}。"
+    "narrative": "最も多い外向きの語：{surface}。最も多い内面語：{deep}。",
+    "attachmentAction": "愛着スタイル診断",
+    "hspAction": "HSP感覚敏感診断"
   },
   "share": {
     "title": "リフレクションを共有",

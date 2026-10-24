@@ -507,7 +507,9 @@
     "nextTitle": "Choose one practical next step",
     "plannerAction": "Build a now-next-later action card",
     "stressAction": "Check current stress signals",
-    "narrative": "Most selected outward word: {surface}. Most selected inner word: {deep}."
+    "narrative": "Most selected outward word: {surface}. Most selected inner word: {deep}.",
+    "attachmentAction": "Explore attachment style",
+    "hspAction": "Check sensory sensitivity"
   },
   "share": {
     "title": "Share the reflection",

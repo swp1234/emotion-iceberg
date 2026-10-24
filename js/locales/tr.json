@@ -507,7 +507,9 @@
     "nextTitle": "Pratik bir sonraki adım seçin",
     "plannerAction": "Şimdi-sonra-daha sonra kartı oluştur",
     "stressAction": "Mevcut stres sinyallerini kontrol et",
-    "narrative": "En sık dış sözcük: {surface}. En sık iç sözcük: {deep}."
+    "narrative": "En sık dış sözcük: {surface}. En sık iç sözcük: {deep}.",
+    "attachmentAction": "Bağlanma Stili Testi",
+    "hspAction": "HSP Duyarlılık Testi"
   },
   "share": {
     "title": "Yansıtmayı paylaş",

@@ -225,6 +225,8 @@
     const lang = window.i18n?.currentLang || 'en';
     $('next-emotion-action')?.setAttribute('href', `/portal/tools/emotion-regulation-planner.html?lang=${lang}`);
     $('next-stress-check')?.setAttribute('href', `/stress-check/?lang=${lang}`);
+    $('next-attachment-style')?.setAttribute('href', `/attachment-style/?lang=${lang}`);
+    $('next-hsp-test')?.setAttribute('href', `/hsp-test/?lang=${lang}`);
   }
 
   window.onLanguageChange = function() {
@@ -239,6 +241,8 @@
     $('share-reflection')?.addEventListener('click', shareReflection);
     $('next-emotion-action')?.addEventListener('click', () => trackOnce('emotion_planner_click'));
     $('next-stress-check')?.addEventListener('click', () => trackOnce('emotion_stress_click'));
+    $('next-attachment-style')?.addEventListener('click', () => trackOnce('emotion_attachment_click'));
+    $('next-hsp-test')?.addEventListener('click', () => trackOnce('emotion_hsp_click'));
     $('retry-btn')?.addEventListener('click', () => {
       if (!hasCompleted) return;
       trackOnce('emotion_reflection_retry');

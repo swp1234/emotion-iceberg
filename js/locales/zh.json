@@ -507,7 +507,9 @@
     "nextTitle": "选择一个实用的下一步",
     "plannerAction": "制作现在-下一步-以后行动卡",
     "stressAction": "检查当前压力信号",
-    "narrative": "最常选择的外在词：{surface}。最常选择的内在词：{deep}。"
+    "narrative": "最常选择的外在词：{surface}。最常选择的内在词：{deep}。",
+    "attachmentAction": "依恋风格测试",
+    "hspAction": "HSP高敏感测试"
   },
   "share": {
     "title": "分享反思",

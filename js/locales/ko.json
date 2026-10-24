@@ -507,7 +507,9 @@
     "nextTitle": "실용적인 다음 단계 하나 고르기",
     "plannerAction": "지금-다음-나중 행동 카드 만들기",
     "stressAction": "현재 스트레스 신호 점검하기",
-    "narrative": "가장 많이 고른 겉 반응: {surface}. 가장 많이 고른 내면 단어: {deep}."
+    "narrative": "가장 많이 고른 겉 반응: {surface}. 가장 많이 고른 내면 단어: {deep}.",
+    "attachmentAction": "애착유형 테스트",
+    "hspAction": "HSP 민감도 테스트"
   },
   "share": {
     "title": "리플렉션 공유",

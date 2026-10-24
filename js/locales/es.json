@@ -507,7 +507,9 @@
     "nextTitle": "Elige un siguiente paso práctico",
     "plannerAction": "Crear una tarjeta ahora-después-más tarde",
     "stressAction": "Revisar señales actuales de estrés",
-    "narrative": "Palabra externa más elegida: {surface}. Palabra interna más elegida: {deep}."
+    "narrative": "Palabra externa más elegida: {surface}. Palabra interna más elegida: {deep}.",
+    "attachmentAction": "Estilo de apego",
+    "hspAction": "Test de sensibilidad HSP"
   },
   "share": {
     "title": "Compartir la reflexión",

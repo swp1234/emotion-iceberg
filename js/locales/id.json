@@ -507,7 +507,9 @@
     "nextTitle": "Pilih satu langkah praktis berikutnya",
     "plannerAction": "Buat kartu sekarang-berikutnya-nanti",
     "stressAction": "Periksa sinyal stres saat ini",
-    "narrative": "Kata luar terbanyak: {surface}. Kata batin terbanyak: {deep}."
+    "narrative": "Kata luar terbanyak: {surface}. Kata batin terbanyak: {deep}.",
+    "attachmentAction": "Tes Gaya Kelekatan",
+    "hspAction": "Tes Sensitivitas HSP"
   },
   "share": {
     "title": "Bagikan refleksi",
