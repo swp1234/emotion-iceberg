@@ -223,10 +223,10 @@
 
   function syncLocalizedActions() {
     const lang = window.i18n?.currentLang || 'en';
-    $('next-emotion-action')?.setAttribute('href', `/portal/tools/emotion-regulation-planner.html?lang=${lang}`);
-    $('next-stress-check')?.setAttribute('href', `/stress-check/?lang=${lang}`);
-    $('next-attachment-style')?.setAttribute('href', `/attachment-style/?lang=${lang}`);
-    $('next-hsp-test')?.setAttribute('href', `/hsp-test/?lang=${lang}`);
+    $('next-emotion-action')?.setAttribute('href', `/portal/tools/emotion-regulation-planner.html?lang=${lang}&source=emotion_iceberg`);
+    $('next-stress-check')?.setAttribute('href', `/stress-check/?lang=${lang}&source=emotion_iceberg`);
+    $('next-attachment-style')?.setAttribute('href', `/attachment-style/?lang=${lang}&source=emotion_iceberg`);
+    $('next-hsp-test')?.setAttribute('href', `/hsp-test/?lang=${lang}&source=emotion_iceberg`);
   }
 
   window.onLanguageChange = function() {
@@ -239,10 +239,25 @@
   function init() {
     $('start-btn')?.addEventListener('click', startReflection);
     $('share-reflection')?.addEventListener('click', shareReflection);
-    $('next-emotion-action')?.addEventListener('click', () => trackOnce('emotion_planner_click'));
-    $('next-stress-check')?.addEventListener('click', () => trackOnce('emotion_stress_click'));
-    $('next-attachment-style')?.addEventListener('click', () => trackOnce('emotion_attachment_click'));
-    $('next-hsp-test')?.addEventListener('click', () => trackOnce('emotion_hsp_click'));
+    const trackCard = (id, eventName) => {
+      const el = $(id);
+      if (!el) return;
+      el.addEventListener('click', () => {
+        trackOnce(eventName);
+        if (typeof gtag === 'function') {
+          gtag('event', 'content_cta_click', {
+            event_category: 'engagement',
+            page_path: location.pathname,
+            target_url: el.href,
+            link_id: id
+          });
+        }
+      });
+    };
+    trackCard('next-emotion-action', 'emotion_planner_click');
+    trackCard('next-stress-check', 'emotion_stress_click');
+    trackCard('next-attachment-style', 'emotion_attachment_click');
+    trackCard('next-hsp-test', 'emotion_hsp_click');
     $('retry-btn')?.addEventListener('click', () => {
       if (!hasCompleted) return;
       trackOnce('emotion_reflection_retry');
